@@ -1,0 +1,25 @@
+baseurl = "https://eloquent-yalow-356e80.netlify.com/"
+languageCode = "en-us"
+title = "Digital Safety"
+editor = "gedit"
+theme = "lanyon-hugo"
+MetaDataFormat = "toml"
+#paginate = 0 # Number of posts to show before paginating
+SectionPagesMenu = "main" # Enable menu system for lazy bloggers
+[permalinks]
+    post = "/:year/:month/:title/"
+[taxonomies]
+    tags = "tags"
+    series = "series"
+    categories = "categories"
+[author]
+    name = "Grant Jacobson"
+[params]
+	tagline = "safe, secure, private" # Suggested, controls homepage description meta
+	title = "digitalsafety.tips"
+	author = "increasingawareness" # Optional, controls author name display on posts
+	show_menu = true # Optional, set false to disable menu entirely
+	powered_by = true # Optional, set false to disable theme credits
+	 footer_text = "Content of this site is published into the public domain under the creative commons zero. This creator is dedicated to the free exchange of ideas, art, and science."
+
+    

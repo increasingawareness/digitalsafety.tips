@@ -1,0 +1,342 @@
++++
+url = "index.html"
++++
+
+<center>
+
+# <i class="far fa-eye-slash" id="adsandtrackers"></i> Block ads and malicious trackers 
+
+## Brave on mobile 
+
+On mobile, use Brave browser to block ads and malicious trackers.
+
+
+<a href="https://brave.com"><img src="/img/brave.svg" height="200" alt="brave"></a>
+
+Switch the search engine to duckduckgo in Brave's settings.
+
+<a href="https://duckduckgo.com"><img src="/img/duckduckgo.svg" height="100" alt="duckduckgo"></a>
+
+
+<br>
+<br>
+
+## Firefox on desktop
+
+On desktop, use Firefox 
+
+<a href="https://firefox.com"><img src="/img/firefox.svg" height="200" alt="firefox"></a>
+
+
+with the following extensions:
+
+[ublock origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
+<a href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/"><img src="/img/ublocko.png" height="50" alt="ublock origin"></a>
+
+
+[Privacy badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/)
+<a href="https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/"><img src="/img/privacybadger.png" height="50" alt="Privacy Badger"></a>
+
+[https everywhere](https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/?src=recommended)
+<a href="https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/?src=recommended"><img src="/img/httpseverywhere.png" height="50" alt="httpseverywhere"></a>
+
+[cookie autodelete](https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/)
+<a href="https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/"><img src="/img/cookieautodelete.png" height="50" alt="cookie autodlete"></a>
+
+[Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/)
+<a href="https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/"><img src="/img/decentraleyes.png" height="50" alt="Decentraleyes"></a>
+
+[Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/)
+<a href="https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/"><img src="/img/bitwardenext.png" height="50" alt="bitwarden"></a>
+
+Switch the search engine to duckduckgo in Firefox's settings.
+
+<a href="https://duckduckgo.com"><img src="/img/duckduckgo.svg" height="100" alt="duckduckgo"></a>
+
+<br>
+<br>
+
+---
+
+
+# <i class="fas fa-comments" id="chat"></i> Keep conversations yours
+
+## Signal Messenger for Mobile and Desktop
+
+
+
+<a href="https://signal.org"><img src="/img/signal.png" height="200" alt="Signal"></a>
+
+
+A fun and peer-reviewed messaging app, Signal allows you to connect in a way that respects you. Signal is non-profit, supports video/audio calls, messaging, Giphy, and group chats. It's available on iOS, Android, MacOS desktop, Windows desktop, and Linux desktop. Make your conversations with people just between you and them, not between you and a company that sees you as a product (ie: google, Facebook, Whatsapp, Snap, etc.).
+
+<br>
+<br>
+
+---
+
+
+# <i class="fas fa-key" id="passwords"></i> Use passwords wisely
+
+Most people reuse the same password or a variant of the same password. This is actually dangerous. Each account should have a fully unique password. Since it's unlikely that most people will remember a unique string of characters for every login, we use a password manager to store our passwords securely. A password manager generates new passwords for you, and stores them until you need them. As long as the password manager has a strong passphrase and a second-factor code to unlock it, the passwords will stay safe.
+
+## Create passphrases
+
+<a href="https://bitwarden.com"><img src="/img/dice.jpg" height="200" alt="bitwarden"></a>
+
+You'll need a master passphrase for your password manager. This is best accomplished with the Diceware method. The math behind this method is sound and since "a six-word passphrase would take 3,505 years, on average, at a trillion guesses a second,"[^1] for now, we'll create two passphrases this way: one for your password manager and one for your home computer. Passphrases are mainly good at securing top level information (your computer logon, password managers, or keys). For all your accounts (email, bank, social media), you'll want to use a password manager.
+
+1. Write down 6 generated words on a piece of paper that will fit in your wallet. 
+2. Create a mnemonic story with the words. 
+3. This is your master password.
+4. Do not use it anywhere else.
+
+
+## Bitwarden password manager
+
+<a href="https://bitwarden.com"><img src="/img/bitwarden.png" height="200" alt="bitwarden"></a>
+
+<br>
+<br>
+
+---
+# <i class="fas fa-mobile-alt" id="2fa"></i> Passwords aren't enough. Use 2fa.
+
+
+Security is strongest in layers. Your passwords are only the first layer. These days, most people carry a phone which can easily be used as a second layer. 2fa (2 factor authentication) usually works by entering a code from your phone after using your password to login. This ensures you are the only person who can access the account. Enable 2FA on all the accounts that you can. You can use text message authentication (where you get an automated message with a code) or app authentication (where you copy the code from an app), or even a specialized device like a Yubikey or Onlykey (see [next level steps](#nextlevel)). App authentication is preferred for most people, but text message authentication is better than nothing, as some services only offer text message based 2FA.
+
+https://twofactorauth.org/. 
+
+
+## andOTP for Android
+## iOS
+
+
+<br>
+<br>
+
+---
+
+# <i class="fas fa-envelope-open-text" id="haveibeenpwned"></i> Sign up for haveibeenpwned
+
+<a href="https://haveibeenpwned.com"><img src="/img/hibp2.png" alt="haveibeenpwned"></a>
+
+Created by security expert Troy Hunt, "Have I been Pwned?" is a service that keeps tracks of data breaches. Pronounced "pone," pwn is internet slang for "to own" or to conquer to gain ownership. Enter your email at the site to see if any of your accounts have been breached. If anything has been breached in the past, don't panic. Go to the website that was breached and change your password there. Be sure [to subscribe](https://haveibeenpwned.com/NotifyMe) to get notified of further breaches right away. Do this for each email you use.
+
+<br>
+
+### <i class="fas fa-exclamation-triangle"></i> [Get notified of further breaches](https://haveibeenpwned.com/NotifyMe)  <i class="fas fa-exclamation-triangle"></i>
+
+<br>
+<br>
+
+---
+
+
+# <i class="fas fa-skull-crossbones" id="phishing"></i> Phishing, scams, remote access
+
+In general:
+
+If it sounds too good to be true, it usually is.
+
+
+
+Verify that you are seeing "https" when visiting websites.
+
+## Inspect emails carefully
+
+</center>
+
+> Phishing is when a scammer uses fraudulent emails or texts, or copycat websites to get you to share valuable personal information – such as account numbers, Social Security numbers, or your login IDs and passwords. Scammers use your information to steal your money or your identity or both. Scammers also use phishing emails to get access to your computer or network then they install programs like ransomware that can lock you out of important files on your computer. Phishing scammers lure their targets into a false sense of security by spoofing the familiar, trusted logos of established, legitimate companies. Or they pretend to be a friend or family member. -[Federal Trade Commission](https://www.consumer.ftc.gov/articles/0003-phishing)
+
+<center>
+
+Don't click on links from emails you don't know.
+
+Don't open or download files from a source you don't know.
+
+Keep it secret; keep it safe.
+
+## Don't trust; verify.
+
+<br>
+<br>
+
+---
+
+# <i class="fas fa-cloud-upload-alt" id="cloud"></i> Be your own cloud
+
+ Usually, a cloud is comprised of a specific companies servers. Servers are just computers and storage devices that are accessible over a network. In this case, when you access something on Apple's cloud, Dropbox, Google drive, etc., your device is actually logging onto to that companies server and accessing from there. This solves a great many problems, but it creates a few weighty ones too. The weightiest is that your personal data exists on a device controlled by companies that want to make money off of you. 
+
+## Syncthing
+
+<a href="https://syncthing.net"><img src="/img/syncthing.svg" height="200" alt="syncthing"></a>
+
+
+## Cryptomater
+
+<a href="https://cryptomator.org"><img src="/img/cryptomator.png" height="200" alt="cryptomator"></a>
+
+<br>
+<br>
+
+---
+
+# <i class="fas fa-pencil-alt" id="notes"></i> Keep Notes
+
+
+<a href="https://commonmark.org/help/"><img src="/img/markdown.svg" height="200" alt="markdown"></a>
+
+<br>
+<br>
+
+---
+
+# <i class="fas fa-user-secret" id="anonymous"></i> Keep your searches and perusing anonymous
+
+<a href="https://torproject.org"><img src="/img/tor.png" height="200" alt="torbrowser"></a>
+
+NOTE have this site up as an onion service to show off how it can be done.
+
+<br>
+<br>
+
+---
+
+
+# <i class="fas fa-bullhorn" id="informed"></i> Stay informed
+
+## This Week in Security Newsletter
+
+<a href="https://tinyletter.com/zackwhittaker"><img src="/img/securitythisweek.png"  alt="This week in security"></a>
+
+## EFF
+
+<a href="https://eff.org"><img src="/img/eff.svg" height="100" alt="eff"></a>
+
+## Motherboard
+
+<a href="https://motherboard.vice.com/en_us"><img src="/img/motherboard.png" height="200" alt="motherboard"></a>
+
+<br>
+<br>
+
+---
+
+# <i class="fas fa-tools" id="othertools"></i> Other tools
+
+## Mobile/Desktop: Wire messenger
+
+<br>
+<br>
+
+---
+
+<details>
+<summary id="nextlevel" style="font-size:200%;"><i class="fas fa-laptop"></i> Next Level Steps</summary>
+
+## <i class="far fa-envelope" id="email"></i> Change your email
+
+
+<br>
+<br>
+
+---
+
+## <i class="fab fa-linux"></i> Install Ubuntu Linux
+
+It's not as scary as it sounds.
+
+<br>
+<br>
+
+---
+## <i class="far fa-hdd"></i> Backup your files
+
+<br>
+<br>
+
+---
+
+## <i class="fas fa-dragon"></i> Upgrade and protect your home network
+
+<br>
+<br>
+
+---
+
+## <i class="fas fa-dumpster-fire"></i> Leave Social Media Behind
+
+<br>
+<br>
+
+---
+
+
+## <i class="fas fa-network-wired"></i>  You can use a commercial VPN if you want, but remember: "A VPN is an ISP"
+
+<a href="https://firefox.com"><img src="img/srah.png" alt="sarahjamielewis"></a>
+
+
+<br>
+<br>
+
+---
+
+</details>
+
+<details>
+<summary style="font-size:200%;"><i class="far fa-question-circle" id="faq"></i>FAQ</summary>
+
+
+
+<details>
+<summary> What kind of phone should I get?</summary>
+ 
+Currently, there isn't a "holy grail" of phones that combines all the aspects of digital safety (safe, secure, and private by design). The best option you can have in your hand right now is probably the Pixel series of phones from Google. I know. Google.
+
+## Pixel
+
+## iPhone
+
+## Librem 5
+
+## GrapheneOS
+
+
+</details>
+
+<details>
+<summary> What kind of computer should I get?</summary>
+</details>
+
+<details>
+<summary> What is "open source" and why does it matter?</summary>
+</details>
+
+<details>
+<summary> Does carrying a phone mean I'm trackable everywhere?</summary>
+</details>
+
+<details>
+<summary> Why should I care about privacy? I don't have anything to hide.</summary>
+</details>
+
+<details>
+<summary> Who created this site and why?</summary>
+</details>
+
+<details>
+<summary> This site seems cool. Can I donate to keep it going?</summary>
+</details>
+
+</details>
+
+
+[^1]: https://theintercept.com/2015/03/26/passphrases-can-memorize-attackers-cant-guess/
+
+</center>
+
+## NOTES 
+
+Pro-truth pledge
