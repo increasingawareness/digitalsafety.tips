@@ -476,7 +476,7 @@ Motherboard is
 
 </center>
 
-Get close friends and family on Signal, tell them about Brave browser being able to block ads, and show them how to make secure passphrases.This way we can help everyone be safe, secure, and private.
+Get close friends and family on Signal, tell them about Brave browser being able to block ads, and show them how to make secure passphrases. This way we can help everyone be safe, secure, and private.
 
 <center>
 
