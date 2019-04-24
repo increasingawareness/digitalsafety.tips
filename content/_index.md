@@ -457,7 +457,7 @@ The EFF has stories out almost everyday about your rights online. Follow them an
 
 </center>
 
-Motherboard is 
+Motherboard reports on all sorts of tech issues. They have robust security coverage. 
 
 <center>
 
@@ -470,9 +470,7 @@ Motherboard is
 
 
 
-#  <i class="far fa-handshake" id="teamsport"></i> "The real protection comes when we recognize that privacy is a team sport"
-
--[EFF](https://www.eff.org/deeplinks/2017/01/data-privacy-day-play-privacy-team-sport)
+#  <i class="far fa-handshake" id="teamsport"></i> "The real protection comes when we recognize that privacy is a team sport" -[EFF](https://www.eff.org/deeplinks/2017/01/data-privacy-day-play-privacy-team-sport)
 
 </center>
 
@@ -542,7 +540,7 @@ The Tor browser is an amazing tool that allows one to freely browse the web anon
 </center>
 
 <details>
-<summary id="nextlevel" style="font-size:200%;"><i class="fas fa-laptop"></i> Next Level Steps</summary>
+<summary id="nextlevel"><i class="fas fa-laptop"></i> Next Level Steps</summary>
 
 ## <i class="far fa-envelope" id="email"></i> Change your email
 
@@ -586,9 +584,23 @@ Cost: 12 € per year
 
 
 
-## <i class="fab fa-linux"></i> Install Ubuntu Linux
+## <i class="fab fa-linux"></i> Install Linux
 
 It's not as scary as it sounds.
+
+There are different types of Linux (called distributions). Here are my recommendations:
+
+### [Ubuntu](https://www.ubuntu.com/)
+
+Ubuntu is the easiest to install and use out of the box.
+
+### [Debian](https://www.debian.org/)
+
+Solid choice and number one recommendation.
+
+### [Fedora](https://getfedora.org/)
+
+Popular and long-lasting Linux distribution.
 
 <br>
 <br>
@@ -596,6 +608,11 @@ It's not as scary as it sounds.
 ---
 
 ## <i class="far fa-hdd"></i> Backup your files
+
+No one wants to lose all their data. You can keep encrypted backups on an external hard drive. This allows you to keep a snapshot of your system. If something goes wrong, you can restore to a previous time. For a cross-platform tool, check out [Duplicati](https://www.duplicati.com/). MacOS has the [Time Machine](https://support.apple.com/en-us/HT201250) backup utility available. I recommend using [BorgBackup](https://www.borgbackup.org/) for Linux.
+
+
+You may want to consider keeping cloud backups. This means that you're storing your files on a company's servers (they take care of redundancy). It's recommended to use software like Cryptomater so that these companies don't have access to the contents of your files.
 
 <br>
 <br>
@@ -605,11 +622,12 @@ It's not as scary as it sounds.
 
 ## <i class="fas fa-dragon"></i> Upgrade and protect your home network
 
+Most consumer routers are horribly outdated and riddled with bugs. Just recently, the U.S. government advised that U.S. citizens reset their routers since the Russian government attacked and successfully subverted millions of routers throughout the world. Most consumer routers never get updated. These are actually small computers that need regular updates to patch for security issues or bugs.
+
 
 ### PFsense router and Firewall with a Wireless Access Point
 
-
-### PiHole
+PFsense is an open source operating system that specializes as a firewall, router, gateway, and more. Netgate makes PFsense appliances that I recommend. Pick up a wireless router made by Ubiquiti and you should be set.
 
 <br>
 <br>
@@ -657,40 +675,51 @@ It's not as scary as it sounds.
 
 </details>
 
-<details>
-<summary style="font-size:200%;"><i class="far fa-question-circle" id="faq"></i> FAQ</summary>
+<center>
 
+# <i class="far fa-question-circle" id="faq"></i> FAQ
 
+</center>
 
-<details>
-<summary> What kind of phone should I get?</summary>
+##  What kind of phone should I get?
  
 Currently, there isn't a "holy grail" of phones that combines all the aspects of digital safety (safe, secure, and private by design). The best option you can have in your hand right now is probably an iPhone or Pixel 3  [according to Daniel Micay](https://www.reddit.com/r/GrapheneOS/comments/bddq5u/os_security_ios_vs_grapheneos_vs_stock_android/ekxifpa?utm_source=share&utm_medium=web2x), a [prominent mobile security developer](https://twitter.com/Snowden/status/1047618052089696257).
 
+## What kind of computer should I get?
 
-
-</details>
-
-<details>
-<summary> What kind of computer should I get?</summary>
-
-## ThinkPad X200, X220, or X230
+### ThinkPad X200, X220, or X230
 
 You can pick one of these up on Ebay for less than $400. They are robust, easy to use, and will last a while.
 
-## Purism Librem Laptop
+### Purism Librem Laptop
 
-For a more modern but expensive option, 
+For a more modern but expensive but modern option, Purism creates really nice laptops pre-installed with Linux. 
 
 
-</details>
+## Why should I care about privacy? I don't have anything to hide.
 
-<details>
-<summary> Why should I care about privacy? I don't have anything to hide.</summary>
-</details>
+I found that these two quotes best sum up the issue:
 
-<details>
-<summary> Who created this site and why?</summary>
+>  Over the last 16 months, as I've debated this issue around the world, every single time somebody has said to me, "I don't really worry about invasions of privacy because I don't have anything to hide." I always say the same thing to them. I get out a pen, I write down my email address. I say, "Here's my email address. What I want you to do when you get home is email me the passwords to all of your email accounts, not just the nice, respectable work one in your name, but all of them, because I want to be able to just troll through what it is you're doing online, read what I want to read and publish whatever I find interesting. After all, if you're not a bad person, if you're doing nothing wrong, you should have nothing to hide." Not a single person has taken me up on that offer.  
+> - Glenn Greenwald [Why privacy matters - TED Talk](https://www.ted.com/talks/glenn_greenwald_why_privacy_matters)
+
+and
+
+> Arguing that you don't care about the right to privacy because you have nothing to hide is no different than saying you don't care about free speech because you have nothing to say.  
+> - Edward Snowden on [Reddit](https://www.reddit.com/r/IAmA/comments/36ru89/just_days_left_to_kill_mass_surveillance_under/crglgh2/)
+
+For more:
+
+- Watch [Greenwald's TED Talk](https://www.ted.com/talks/glenn_greenwald_why_privacy_matters)
+- Read Professor [Daniel Solove's paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=998565)
+- Browse the [Wikipedia article](https://en.wikipedia.org/wiki/Nothing_to_hide_argument) about this issue.
+
+## For more tools, head over to [privacytools.io](https://privacytools.io).
+
+
+---
+
+## About
 
 I'm Grant. For the past many years I've spent a large amount of hours learning more about technology, security, Linux, and network infrastructure. 
 
@@ -698,11 +727,14 @@ My handle is @increasingawareness. You contact me with that username on Wire mes
 
 This site was aimed at the layperson and was intended to get privacy-security preserving tech into the hands of as many people as possible.
 
-</details>
+## Credits
 
-</details>
 
-## For more tools, head over to [privacytools.io](https://privacytools.io).
+- To  Tom Preston-Werner and Jekyll contributors for Lanyon-theme and associated CSS under the [MIT license](https://github.com/jekyll/jekyll/blob/master/LICENSE).
+- Font-Awesome used under the [Font Awesome Free License](https://github.com/FortAwesome/Font-Awesome/blob/master/LICENSE.txt).
+- To Bjørn Erik Pedersen for the [wonderful static site generator Hugo](https://gohugo.io/) under the Apache 2.0.
+- To my family and friends for their patience and support. =)
+
 
 [^1]: https://theintercept.com/2015/03/26/passphrases-can-memorize-attackers-cant-guess/
 
