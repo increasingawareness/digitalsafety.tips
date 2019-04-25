@@ -595,7 +595,7 @@ For more:
 
 <center>
 
-# <i class="fas fa-laptop"></i> Next Level Steps. Finished with the steps above? Here are some more steps you should take.
+# <i class="fas fa-laptop"></i> Next Level Steps. Finished with the steps above? Here are some more steps you can take.
 
 </center>
 
