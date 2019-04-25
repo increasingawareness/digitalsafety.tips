@@ -4,6 +4,8 @@ url = "index.html"
 
  Welcome to digitalsafety.tips, a guidebook aimed at simple solutions to keep people safe, secure, and private in the digital world.
 
+<img src="/img/reading.jpg" alt="person reading">
+
 <center>
 
 # <i class="far fa-eye-slash" id="adsandtrackers"></i> Block ads and malicious trackers 
