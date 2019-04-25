@@ -173,10 +173,10 @@ Go to https://twofactorauth.org/ to see some sites that support 2FA. Most banks,
 ## andOTP for Android
 
 <a href="https://play.google.com/store/apps/details?id=org.shadowice.flocke.andotp"><img src="/img/andotp.svg" height="200" alt="andOTP"></a>
-
+<br>
 </center>
 
-Important - andOTP has the ability to backup security keys to wherever you would like. It is highly recommended to keep consistent and encrypted backups of your 2FA keys.
+<p class="message">Important—andOTP has the ability to backup security keys to wherever you would like. It is highly recommended to keep consistent and encrypted backups of your 2FA keys.</p>
 
 <br>
 <center>
@@ -184,10 +184,10 @@ Important - andOTP has the ability to backup security keys to wherever you would
 ## Tofu for iOS
 
 <a href="https://itunes.apple.com/app/tofu-authenticator/id1082229305"><img src="/img/tofu.svg" height="200" alt="Tofu"></a>
-
+<br>
 </center>
 
-Important - 2FA keys are stored on your iPhone's secure keychain, so only iTunes/iCloud encrypted backups will include a backup to these keys. If you're restoring your device from an iTunes/iCloud backup, the app and all keys will be restored as well.
+<p class="message">Important—2FA keys are stored on your iPhone's secure keychain, so only iTunes/iCloud encrypted backups will include a backup to these keys. If you're restoring your device from an iTunes/iCloud backup, the app and all keys will be restored as well.</p>
 
 <center>
 <br>
@@ -539,8 +539,63 @@ The Tor browser is an amazing tool that allows one to freely browse the web anon
 
 </center>
 
-<details>
-<summary id="nextlevel"><i class="fas fa-laptop"></i> Next Level Steps</summary>
+
+
+
+<center>
+
+# <i class="far fa-question-circle" id="faq"></i> FAQ
+
+</center>
+
+##  What kind of phone should I get?
+ 
+Currently, there isn't a "holy grail" of phones that combines all the aspects of digital safety (safe, secure, and private by design). The best option you can have in your hand right now is probably an iPhone or Pixel 3  [according to Daniel Micay](https://www.reddit.com/r/GrapheneOS/comments/bddq5u/os_security_ios_vs_grapheneos_vs_stock_android/ekxifpa?utm_source=share&utm_medium=web2x), a [prominent mobile security developer](https://twitter.com/Snowden/status/1047618052089696257).
+
+## What kind of computer should I get?
+
+### ThinkPad X200, X220, or X230
+
+You can pick one of these up on Ebay for less than $400. They are robust, easy to use, and will last a while.
+
+### Purism Librem Laptop
+
+For a more modern but expensive but option, Purism creates really nice laptops pre-installed with Linux. 
+
+
+## Why should I care about privacy? I don't have anything to hide.
+
+I found that these two quotes best sum up the issue:
+
+>  Over the last 16 months, as I've debated this issue around the world, every single time somebody has said to me, "I don't really worry about invasions of privacy because I don't have anything to hide." I always say the same thing to them. I get out a pen, I write down my email address. I say, "Here's my email address. What I want you to do when you get home is email me the passwords to all of your email accounts, not just the nice, respectable work one in your name, but all of them, because I want to be able to just troll through what it is you're doing online, read what I want to read and publish whatever I find interesting. After all, if you're not a bad person, if you're doing nothing wrong, you should have nothing to hide." Not a single person has taken me up on that offer.  
+> - Glenn Greenwald [Why privacy matters - TED Talk](https://www.ted.com/talks/glenn_greenwald_why_privacy_matters)
+
+and
+
+> Arguing that you don't care about the right to privacy because you have nothing to hide is no different than saying you don't care about free speech because you have nothing to say.  
+> - Edward Snowden on [Reddit](https://www.reddit.com/r/IAmA/comments/36ru89/just_days_left_to_kill_mass_surveillance_under/crglgh2/)
+
+For more:
+
+- Watch [Greenwald's TED Talk](https://www.ted.com/talks/glenn_greenwald_why_privacy_matters)
+- Read Professor [Daniel Solove's paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=998565)
+- Browse the [Wikipedia article](https://en.wikipedia.org/wiki/Nothing_to_hide_argument) about this issue.
+
+<br>
+<br>
+
+---
+
+
+
+
+
+
+<center>
+
+# <i class="fas fa-laptop"></i> Next Level Steps. Finished with the steps above? Here are some more steps you should take.
+
+</center>
 
 ## <i class="far fa-envelope" id="email"></i> Change your email
 
@@ -667,55 +722,10 @@ PFsense is an open source operating system that specializes as a firewall, route
 
 <a href="https://mobile.twitter.com/SarahJamieLewis/status/871713517317042176"><img src="img/srah.png" alt="sarahjamielewis"></a>
 
-
-<br>
-<br>
-
----
-
-</details>
-
-<center>
-
-# <i class="far fa-question-circle" id="faq"></i> FAQ
-
-</center>
-
-##  What kind of phone should I get?
- 
-Currently, there isn't a "holy grail" of phones that combines all the aspects of digital safety (safe, secure, and private by design). The best option you can have in your hand right now is probably an iPhone or Pixel 3  [according to Daniel Micay](https://www.reddit.com/r/GrapheneOS/comments/bddq5u/os_security_ios_vs_grapheneos_vs_stock_android/ekxifpa?utm_source=share&utm_medium=web2x), a [prominent mobile security developer](https://twitter.com/Snowden/status/1047618052089696257).
-
-## What kind of computer should I get?
-
-### ThinkPad X200, X220, or X230
-
-You can pick one of these up on Ebay for less than $400. They are robust, easy to use, and will last a while.
-
-### Purism Librem Laptop
-
-For a more modern but expensive but modern option, Purism creates really nice laptops pre-installed with Linux. 
-
-
-## Why should I care about privacy? I don't have anything to hide.
-
-I found that these two quotes best sum up the issue:
-
->  Over the last 16 months, as I've debated this issue around the world, every single time somebody has said to me, "I don't really worry about invasions of privacy because I don't have anything to hide." I always say the same thing to them. I get out a pen, I write down my email address. I say, "Here's my email address. What I want you to do when you get home is email me the passwords to all of your email accounts, not just the nice, respectable work one in your name, but all of them, because I want to be able to just troll through what it is you're doing online, read what I want to read and publish whatever I find interesting. After all, if you're not a bad person, if you're doing nothing wrong, you should have nothing to hide." Not a single person has taken me up on that offer.  
-> - Glenn Greenwald [Why privacy matters - TED Talk](https://www.ted.com/talks/glenn_greenwald_why_privacy_matters)
-
-and
-
-> Arguing that you don't care about the right to privacy because you have nothing to hide is no different than saying you don't care about free speech because you have nothing to say.  
-> - Edward Snowden on [Reddit](https://www.reddit.com/r/IAmA/comments/36ru89/just_days_left_to_kill_mass_surveillance_under/crglgh2/)
-
-For more:
-
-- Watch [Greenwald's TED Talk](https://www.ted.com/talks/glenn_greenwald_why_privacy_matters)
-- Read Professor [Daniel Solove's paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=998565)
-- Browse the [Wikipedia article](https://en.wikipedia.org/wiki/Nothing_to_hide_argument) about this issue.
-
 ## For more tools, head over to [privacytools.io](https://privacytools.io).
 
+<br>
+<br>
 
 ---
 
