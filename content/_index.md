@@ -64,6 +64,7 @@ Switch the search engine to duckduckgo in Firefox's settings.
 
 <a href="https://duckduckgo.com"><img src="/img/duckduckgo.svg" height="100" alt="duckduckgo"></a>
 
+
 <br>
 <br>
 
@@ -148,6 +149,8 @@ Bitwarden is a password manager that has undergone security audits, encrypts you
 
 Security is strongest in layers. Your passwords are only the first layer. Most people carry a phone which can easily be used as a second layer. 2FA (2 factor authentication) usually works by entering a code from your phone after using your password to login. This ensures you are the only person who can access the account. Enable 2FA on all the accounts that you can. 
 
+
+
 <br>
 
 There are three main types of authentication:
@@ -168,6 +171,8 @@ Prefer apps and specialized devices over text message authentication. However, t
 
 Go to https://twofactorauth.org/ to see some sites that support 2FA. Most banks, social media networks, and email providers have 2FA.
 
+<p class="message"><i class="fas fa-exclamation-triangle"></i> Note that security questions don't count as a second-factor. Security questions are very easy to guess or find out about a person, and are extremely risky to use in place of the above  methods. If you must use a security question, I recommend using a random string of characters as the answer to the question. Then save it in your password manager.</p> 
+
 <center>
 
 <br>
@@ -178,7 +183,7 @@ Go to https://twofactorauth.org/ to see some sites that support 2FA. Most banks,
 <br>
 </center>
 
-<p class="message">Important—andOTP has the ability to backup security keys to wherever you would like. It is highly recommended to keep consistent and encrypted backups of your 2FA keys.</p>
+<p class="message"><i class="fas fa-exclamation-triangle"></i> Important—andOTP has the ability to backup security keys to wherever you would like. It is highly recommended to keep consistent and encrypted backups of your 2FA keys.</p>
 
 <br>
 <center>
@@ -189,7 +194,7 @@ Go to https://twofactorauth.org/ to see some sites that support 2FA. Most banks,
 <br>
 </center>
 
-<p class="message">Important—2FA keys are stored on your iPhone's secure keychain, so only iTunes/iCloud encrypted backups will include a backup to these keys. If you're restoring your device from an iTunes/iCloud backup, the app and all keys will be restored as well.</p>
+<p class="message"><i class="fas fa-exclamation-triangle"></i> Important—2FA keys are stored on your iPhone's secure keychain, so only iTunes/iCloud encrypted backups will include a backup to these keys. If you're restoring your device from an iTunes/iCloud backup, the app and all keys will be restored as well.</p>
 
 <center>
 <br>
@@ -264,6 +269,8 @@ As the wise wizard said. Corollaries to this phrase include:
 - ["loose-lips sink ships"](https://en.wikipedia.org/wiki/Operations_security)
 - ["The Internet is forever"](https://www.inc.com/meredith-fineman/what-we-post-online-is-forever-and-we-need-a-reminder.html)
 - ["On a need-to-know basis"](https://www.youtube.com/watch?v=YEiu7uYCfPE)
+
+<p class="message"><i class="fas fa-exclamation-triangle"></i> Additionally, avoid using "smart" appliances or home assistants (Amazon's Alexa, Google Home, etc.). These are set up to listen in constantly, using the information from your everyday life as a means for profit.</p>
 
 
 
@@ -738,6 +745,11 @@ I'm Grant. For the past many years I've spent a large amount of hours learning m
 My handle is @increasingawareness. You contact me with that username on Wire messenger. I'm not currently on any social media platforms.
 
 This site was aimed at the layperson and was intended to get privacy-security preserving tech into the hands of as many people as possible.
+
+
+## Contribute
+
+If you feel that anything on this site needs to be changed, redacted, or added, please feel free to open an issue or submit a pull request on github.
 
 ## Credits
 
