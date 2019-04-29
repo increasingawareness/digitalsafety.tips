@@ -13,7 +13,7 @@ url = "index.html"
 
 </center>
 
-Ads and trackers follow you around the Internet gobbling up information about you and selling it to various companies. Ads are annoying and a eye-sore. Trackers are not consensual. To avoid these issues, simply use the tools below. 
+Ads and trackers follow you around the Internet gobbling up information about you and selling it to various companies. Ads are annoying and trackers are not consensual. To avoid these issues, simply use the tools below. 
 
 <center>
 
@@ -95,7 +95,7 @@ Signal is a fun and peer-reviewed messaging app that allows you to connect in a 
 
 </center>
 
-Most people reuse the same password or a variant of the same password. This is actually dangerous. Each account should have a fully unique password. Since it's unlikely that most people will remember a unique string of characters for every login, we use a password manager to store our passwords securely. 
+Every account should have it's own unique password because it is dangerous to reuse the same password or a variant of the same password across sites. It's unlikely that most people will remember a unique string of characters for every login, so it's recommended to use a password manager to store passwords securely. 
 
 A password manager generates new passwords for you, and stores them until you need them. All you need to remember is one passphrase that protects all the other ones. As long as the password manager has a strong passphrase and a second-factor code to unlock it, the passwords will stay safe.
 
@@ -108,7 +108,7 @@ A password manager generates new passwords for you, and stores them until you ne
 
 </center>
 
-A passphrase is usually longer and more memorable than the shorter but harder to remember password. You'll need a master passphrase for your password manager. This is best accomplished with the [Diceware method](https://en.wikipedia.org/wiki/Diceware). This method involves rolling physical die to randomly select 6 to 7 words from a word list. One simply strings these words together, all as one word and creates a mnemonic to remember it. 
+A passphrase is usually longer and more memorable than the shorter but harder to remember password. You'll need a master passphrase for your password manager which is best accomplished with the [Diceware method](https://en.wikipedia.org/wiki/Diceware). This method involves rolling physical die to randomly select 6 to 7 words from a word list. One simply strings these words together, all as one word and creates a mnemonic to remember it. 
 
 Despite what you may have heard from other sources, the math behind this method is sound since "a six-word passphrase would take 3,505 years, on average, at a trillion guesses a second."[^1] 
 
@@ -147,7 +147,7 @@ Bitwarden is a password manager that has undergone security audits, encrypts you
 
 </center>
 
-Security is strongest in layers. Your passwords are only the first layer. Most people carry a phone which can easily be used as a second layer. 2FA (2 factor authentication) usually works by entering a code from your phone after using your password to login. This ensures you are the only person who can access the account. Enable 2FA on all the accounts that you can. 
+Security is strongest in layers, with passwords being only the first layer in the system. Most people carry a phone which can easily be used as a second layer of security. 2FA (2 factor authentication) usually works by entering a code from your phone after using your password to login, ensuring you are the only person who can access the account. 
 
 
 
@@ -530,7 +530,7 @@ Veracrypt allows one to keep files in a secure container or encrypt whole disks.
 
 </center>
 
-The Tor browser is an amazing tool that allows one to freely browse the web anonymously. It basically connects to volunteers who operate servers all over the world and encrypt your web traffic in layers like an onion. It does this 3 times so that no one can connect the requester of the data with the data itself. If you would like to be anonymous on the web, the tor browser is your ticket. 
+The Tor browser is an amazing tool that allows one to freely browse the web anonymously. It connects to volunteers who operate servers all over the world and encrypt your web traffic in layers like an onion. It does this 3 times so that no one can connect the requester of the data with the data itself. If you would like to be anonymous on the web, the tor browser is your ticket. 
 
 
 
@@ -565,11 +565,11 @@ Currently, there isn't a "holy grail" of phones that combines all the aspects of
 
 ### ThinkPad X200, X220, or X230
 
-You can pick one of these up on Ebay for less than $400. They are robust, easy to use, and will last a while.
+You can pick one of these up on Ebay for less than $400. They are [robust, easy to use, and will last a while](https://www.reddit.com/r/thinkpad/wiki/intro).
 
 ### Purism Librem Laptop
 
-For a more modern but expensive but option, Purism creates really nice laptops pre-installed with Linux. 
+For a more modern but expensive but option, Purism [creates laptops](https://puri.sm/products/) pre-installed with Linux. 
 
 
 ## Why should I care about privacy? I don't have anything to hide.
@@ -602,7 +602,7 @@ For more:
 
 <center>
 
-# <i class="fas fa-laptop"></i> Next Level Steps. Finished with the steps above? Here are some more steps you can take.
+# <i class="fas fa-laptop" id="nextlevel"></i> Next Level Steps. Finished with the steps above? Here are some more steps you can take.
 
 </center>
 
@@ -613,29 +613,28 @@ The following four email providers have shown dedication to keeping your informa
 <center>
 
 
-<img src="/img/Posteo.png" alt="posteo"></a> 
+<a href="https://posteo.de/en"><img src="/img/Posteo.png" alt="posteo"></a> 
 
 Cost: 12 € per year
 
 ---
 
-<img src="/img/ProtonMail.png" alt="protonmail">
+<a href="https://protonmail.com/"><img src="/img/ProtonMail.png" alt="protonmail"></a>
 
 Free
 
 ---
 
-<img src="/img/Tutanota.png" alt="tutanota">
+<a href="https://tutanota.com/"><img src="/img/Tutanota.png" alt="tutanota"></a>
 
 Free
 
 ---
 
-<img src="/img/mailbox.png" alt="mailbox"></a> 
+<a href="https://mailbox.org/en/"><img src="/img/mailbox.png" alt="mailbox"></a> 
 
 Cost: 12 € per year
 
----
 
 
 </center>
@@ -673,10 +672,10 @@ Popular and long-lasting Linux distribution.
 
 ## <i class="far fa-hdd"></i> Backup your files
 
-No one wants to lose all their data. You can keep encrypted backups on an external hard drive. This allows you to keep a snapshot of your system. If something goes wrong, you can restore to a previous time. For a cross-platform tool, check out [Duplicati](https://www.duplicati.com/). MacOS has the [Time Machine](https://support.apple.com/en-us/HT201250) backup utility available. I recommend using [BorgBackup](https://www.borgbackup.org/) for Linux.
+No one wants to lose all their data. Keeping encrypted backups on an external hard drive allows you to keep a snapshot of your system over time. If something goes wrong, you can restore to a previous time. For a cross-platform tool, check out [Duplicati](https://www.duplicati.com/). MacOS has the [Time Machine](https://support.apple.com/en-us/HT201250) backup utility available. I recommend using [BorgBackup](https://www.borgbackup.org/) for Linux.
 
 
-You may want to consider keeping cloud backups. This means that you're storing your files on a company's servers (they take care of redundancy). It's recommended to use software like Cryptomater so that these companies don't have access to the contents of your files.
+You may want to consider keeping cloud backups. This means that you're storing your files on a company's servers (they take care of redundancy). It's recommended to use software like Cryptomator so that these companies don't have access to the contents of your files.
 
 <br>
 <br>
@@ -686,12 +685,12 @@ You may want to consider keeping cloud backups. This means that you're storing y
 
 ## <i class="fas fa-dragon"></i> Upgrade and protect your home network
 
-Most consumer routers are horribly outdated and riddled with bugs. Just recently, the U.S. government advised that U.S. citizens reset their routers since the Russian government attacked and successfully subverted millions of routers throughout the world. Most consumer routers never get updated. These are actually small computers that need regular updates to patch for security issues or bugs.
+Most consumer routers are horribly outdated and riddled with bugs. In 2018, the U.S. government [advised that U.S. citizens reset their routers](https://www.nytimes.com/2018/05/27/technology/router-fbi-reboot-malware.html) since the Russian government attacked and successfully subverted millions of routers throughout the world. Most consumer routers never get updated. These are actually small computers that need regular updates to patch for security issues or bugs.
 
 
 ### PFsense router and Firewall with a Wireless Access Point
 
-PFsense is an open source operating system that specializes as a firewall, router, gateway, and more. Netgate makes PFsense appliances that I recommend. Pick up a wireless router made by Ubiquiti and you should be set.
+[PFsense is an open source operating system](https://www.pfsense.org/) that specializes as a firewall, router, gateway, and more. Netgate [makes PFsense appliances that I recommend](https://www.pfsense.org/products/). Pick up [a wireless access point, like this one made by Ubiquiti](https://www.ui.com/unifi/unifi-ap-ac-lite/) and you should be set.
 
 <br>
 <br>
@@ -699,6 +698,58 @@ PFsense is an open source operating system that specializes as a firewall, route
 ---
 
 ## <i class="fas fa-dumpster-fire"></i> Leave Social Media Behind
+
+Vox [released a video entitled "Why every social media site is a dumpster fire"](https://www.youtube.com/watch?v=wZSRxfHMr5s). The video explains how social media sites are very good at increasing tribalism and minimizing good conversation.
+
+---
+
+Cal Newport, professor of computer science at Georgetown University recommends [digital minimalism](http://www.calnewport.com/blog/2016/12/18/on-digital-minimalism/) as the antidote to the scourge of social media on our attention.
+
+> There's this sense right now out there in the culture where people say, "Okay, wait a second. Who ever said that the right way to use a smartphone is I have to look at it all the time? When did I sign up for that? When did I think like, 'You know what I really need to do is look at this little screen three to four hours a day'?" No one signed up for that, and they're waking up one day and realizing they're doing it. These companies have gone too far and gotten too good into making that into an addictive experience... 
+
+> -Cal Newport on the [brainfluence podcast](https://www.rogerdooley.com/cal-newport-minimalism/)
+
+---
+
+The popular Youtube channel Yes Theory [released a video](https://www.youtube.com/watch?v=TA5Ilzauebo) detailing how 30 days without social media helped their focus.
+
+---
+
+Roger McNamee, one-time advisor to Mark Zuckerberg and author of the book *Zucked: Waking Up to the Facebook Catastrophe* brought to our attention how there are no rules in the current system to protect our digital safety: 
+
+
+> Consumers feed the machine because of the convenience it provides. But we, the people, have little say in this new data economy. We are merely the subject, and, increasingly, the victims of it.
+
+> There are few rules in this country when it comes to the gathering or use of data. Important questions need to be asked. Why, for example, is it legal to sell or trade data about our credit card purchases, our personal health, geolocation, or Internet activity?
+
+> Why is it legal for smart devices to listen in on us in our bedrooms and offices? Why is it legal to collect any data at all about minors? Why do data companies generally bear no liability when they take or use our data without permission? 
+
+> -Roger McNamee, [PBS Newshour](https://www.pbs.org/newshour/show/the-dangers-of-our-new-data-economy-and-how-to-avoid-them)
+
+---
+
+Edward Snowden, the whistle-blower and former NSA contractor stated that:
+
+> Businesses that make money by collecting and selling detailed records of private lives were once plainly described as "surveillance companies." Their rebranding as "social media" is the most successful deception since the Department of War became the Department of Defense.
+
+>-@Snowden, [2018.03.17](https://twitter.com/Snowden/status/975147858096742405?ref_src=twsrc%5Etfw)
+
+---
+
+Social media can:
+
+- Take away meaningful connections
+- Waste time
+- Use you as a product
+- Aide government surveillance
+- Make you feel like you are missing out, when you're not
+
+Using optional online activity in an intentional and minimalist way can:
+
+- Be empowering
+- Create true connection
+- Allow time for focus
+- Inspire mindfulness
 
 <br>
 <br>
@@ -719,6 +770,9 @@ PFsense is an open source operating system that specializes as a firewall, route
 ### Yubikey
 
 ### Onlykey
+
+### Libremkey
+
 
 
 <br>
