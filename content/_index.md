@@ -653,6 +653,8 @@ It's not as scary as it sounds.
 
 There are different types of Linux (called distributions). Here are my recommendations:
 
+<center>
+
 ### [Ubuntu](https://www.ubuntu.com/)
 
 Ubuntu is the easiest to install and use out of the box.
@@ -664,6 +666,8 @@ Solid choice and number one recommendation.
 ### [Fedora](https://getfedora.org/)
 
 Popular and long-lasting Linux distribution.
+
+</center>
 
 <br>
 <br>
@@ -690,7 +694,15 @@ Most consumer routers are horribly outdated and riddled with bugs. In 2018, the 
 
 ### PFsense router and Firewall with a Wireless Access Point
 
-[PFsense is an open source operating system](https://www.pfsense.org/) that specializes as a firewall, router, gateway, and more. Netgate [makes PFsense appliances that I recommend](https://www.pfsense.org/products/). Pick up [a wireless access point, like this one made by Ubiquiti](https://www.ui.com/unifi/unifi-ap-ac-lite/) and you should be set.
+[PFsense is an open source operating system](https://www.pfsense.org/) that specializes as a firewall, router, gateway, and more. Netgate [makes PFsense appliances that I recommend](https://www.pfsense.org/products/). 
+
+<center>
+<a href="https://www.netgate.com/solutions/pfsense/sg-1100.html"><img src="/img/netgate.png" alt="netgate"></a>
+</center>
+
+Pick up [a wireless access point, like this one made by Ubiquiti](https://www.ui.com/unifi/unifi-ap-ac-lite/) and you should be set.
+
+
 
 <br>
 <br>
@@ -762,18 +774,26 @@ Using optional online activity in an intentional and minimalist way can:
 
 > "When it comes to online security, confusion about the risks can lead people to obsess over obscure threats while ignoring key innovations that could truly protect them. Even highly-targeted users like politicians and activists don’t fully appreciate the scourge of phishing, and many aren’t familiar with an emerging form of two-factor authentication known as “Security Keys” that we hope can stop it in its tracks ... phishing is the silent killer, and relying on a password alone is a recipe for disaster. Two-factor authentication (even with a code delivered by SMS) is still way better than the alternative, but if you’re an at-risk user — like a political figure, celebrity, activist, or journalist — please consider FIDO Security Keys for all your sensitive accounts. Anything less would be uncivilized. 🔐" -Mark Risher's [*Phishing and Security Keys*](https://medium.com/@mrisher_2499/phishing-and-security-keys-b5c8e8e26931)
 
-
+<center>
 
 
 ### Trezor
 
+<a href="https://trezor.io/"><img src="/img/trezor.jpg" height="200" alt="Trezor"></a>
+
 ### Yubikey
+
+<a href="https://www.yubico.com/product/yubikey-5-nfc/#yubikey-5-nfc"><img src="/img/yubikey.jpg" height="200" alt="yubikey"></a>
 
 ### Onlykey
 
-### Libremkey
+<a href="https://onlykey.io/"><img src="/img/onlykey.jpg" height="200" alt="Onlykey"></a>
 
+### Librem key
 
+<a href="https://puri.sm/products/librem-key/"><img src="/img/libremkey.png" height="200" alt="libremkey"></a>
+
+</center>
 
 <br>
 <br>
@@ -783,7 +803,12 @@ Using optional online activity in an intentional and minimalist way can:
 
 ## <i class="fas fa-network-wired"></i>  You can use a commercial VPN if you want, but remember: "A VPN is an ISP"
 
+Privacy and anonymity researcher Sarah Jamie Lewis points out that using a virtual private network (VPN) doesn't keep you anonymous. Rather, you're taking the burden of potential surveillance and moving it from your current Internet service provider (ISP) and moving it to another by using a VPN. This doesn't mean "don't use a VPN". It means treat your VPN just like an ISP.
+
+<center>
 <a href="https://mobile.twitter.com/SarahJamieLewis/status/871713517317042176"><img src="img/srah.png" alt="sarahjamielewis"></a>
+
+</center>
 
 ## For more tools, head over to [privacytools.io](https://privacytools.io).
 
@@ -792,7 +817,7 @@ Using optional online activity in an intentional and minimalist way can:
 
 ---
 
-## About
+## <i class="fas fa-user" id="about"></i> About
 
 I'm Grant. For the past many years I've spent a large amount of hours learning more about technology, security, Linux, and network infrastructure. 
 
@@ -801,11 +826,11 @@ My handle is @increasingawareness. You contact me with that username on Wire mes
 This site was aimed at the layperson and was intended to get privacy-security preserving tech into the hands of as many people as possible.
 
 
-## Contribute
+## <i class="fab fa-github" id="contribute"></i> Contribute
 
-If you feel that anything on this site needs to be changed, redacted, or added, please feel free to open an issue or submit a pull request on github.
+If you feel that anything on this site needs to be changed, redacted, or added, please feel free to [open an issue](https://github.com/increasingawareness/digitalsafety.tips/issues) or submit a pull request on Github.
 
-## Credits
+## <i class="fas fa-list" id="credits"></i> Credits
 
 
 - To  Tom Preston-Werner and Jekyll contributors for Lanyon-theme and associated CSS under the [MIT license](https://github.com/jekyll/jekyll/blob/master/LICENSE).
