@@ -285,7 +285,7 @@ For more on phishing, check out [this comic](https://theintercept.com/2017/11/19
 
 </center>
 
-Usually, a cloud is comprised of a specific company's servers. Servers are just computers and storage devices that are accessible over a network. In this case, when you access something on Apple's cloud, Dropbox, Google drive, etc., your device is actually logging onto to that company's server and accessing from there. This solves a great many problems, but it creates a few weighty ones too. The weightiest is that your personal data exists on a device controlled by companies that want to make money off of you. 
+Usually, a cloud is comprised of a specific company's servers. Servers are just computers and storage devices that are accessible over a network. In this case, when you access something on Apple's cloud, Dropbox, Google drive, etc., your device is actually logging onto that company's server and accessing from there. This solves a great many problems, but it creates a few weighty ones too. The weightiest is that your personal data exists on a device controlled by companies that want to make money off of you. 
 
 <br>
  
