@@ -95,7 +95,7 @@ Signal is a fun and peer-reviewed messaging app that allows you to connect in a 
 
 </center>
 
-Every account should have it's own unique password because it is dangerous to reuse the same password or a variant of the same password across sites. It's unlikely that most people will remember a unique string of characters for every login, so it's recommended to use a password manager to store passwords securely. 
+Every account should have its own unique password because it is dangerous to reuse the same password or a variant of the same password across sites. It's unlikely that most people will remember a unique string of characters for every login, so it's recommended to use a password manager to store passwords securely. 
 
 A password manager generates new passwords for you, and stores them until you need them. All you need to remember is one passphrase that protects all the other ones. As long as the password manager has a strong passphrase and a second-factor code to unlock it, the passwords will stay safe.
 
@@ -208,7 +208,7 @@ Go to https://twofactorauth.org/ to see some sites that support 2FA. Most banks,
 
 </center>
 
-Created by security expert Troy Hunt, "Have I been Pwned?" is a service that keeps tracks of data breaches. Pronounced "pone," pwn is internet slang for "to own" or to conquer to gain ownership. Enter your email at the site to see if any of your accounts have been breached. If anything has been breached in the past, don't panic. Go to the website that was breached and change your password there. Be sure [to subscribe](https://haveibeenpwned.com/NotifyMe) to get notified of further breaches right away. Do this for each email you use.
+Created by security expert Troy Hunt, "Have I been Pwned?" is a service that keeps track of data breaches. Pronounced "pone," pwn is internet slang for "to own" or to conquer to gain ownership. Enter your email at the site to see if any of your accounts have been breached. If anything has been breached in the past, don't panic. Go to the website that was breached and change your password there. Be sure [to subscribe](https://haveibeenpwned.com/NotifyMe) to get notified of further breaches right away. Do this for each email you use.
 
 <center>
 
@@ -689,10 +689,10 @@ You may want to consider keeping cloud backups. This means that you're storing y
 
 ## <i class="fas fa-dragon"></i> Upgrade and protect your home network
 
-Most consumer routers are horribly outdated and riddled with bugs. In 2018, the U.S. government [advised that U.S. citizens reset their routers](https://www.nytimes.com/2018/05/27/technology/router-fbi-reboot-malware.html) since the Russian government attacked and successfully subverted millions of routers throughout the world. Most consumer routers never get updated. These are actually small computers that need regular updates to patch for security issues or bugs.
+Most consumer routers are horribly outdated and riddled with bugs. In 2018, the U.S. government [advised that U.S. citizens reset their routers](https://www.nytimes.com/2018/05/27/technology/router-fbi-reboot-malware.html) since the Russian government attacked and successfully subverted hundreds-of-thousands of routers throughout the world. Most consumer routers never get updated. These are actually small computers that need regular updates to patch for security issues or bugs.
 
 
-### PFsense router and Firewall with a Wireless Access Point
+### PFsense router and firewall with a wireless access point
 
 [PFsense is an open source operating system](https://www.pfsense.org/) that specializes as a firewall, router, gateway, and more. Netgate [makes PFsense appliances that I recommend](https://www.pfsense.org/products/).
 
@@ -788,10 +788,6 @@ Using optional online activity in an intentional and minimalist way can:
 ### Onlykey
 
 <a href="https://onlykey.io/"><img src="/img/onlykey.jpg" height="200" alt="Onlykey"></a>
-
-### Librem key
-
-<a href="https://puri.sm/products/librem-key/"><img src="/img/libremkey.png" height="200" alt="libremkey"></a>
 
 </center>
 
