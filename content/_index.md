@@ -219,7 +219,7 @@ Created by security expert Troy Hunt, "Have I been Pwned?" is a service that kee
 ---
 
 
-# <i class="fas fa-skull-crossbones" id="phishing"></i> Phishing, scams, remote access
+# <i class="fas fa-skull-crossbones" id="phishing"></i> Phishing, scams, remote access, behaviors
 
 
 
@@ -235,6 +235,8 @@ In general:
 - Don't be fooled by visual similarities, always verify who is contacting you.
 - [Pay attention to browser alerts and security exceptions](https://support.mozilla.org/en-US/kb/what-does-your-connection-is-not-secure-mean).
 - [Be very careful of shortened links](https://www.schneier.com/blog/archives/2016/04/security_risks_11.html).
+
+
 
 <center>
 
@@ -275,6 +277,22 @@ As the wise wizard said. Corollaries to this phrase include:
 
 
 For more on phishing, check out [this comic](https://theintercept.com/2017/11/19/how-to-protect-yourself-against-spearphishing-a-comic-explanation/) from *The Intercept*.
+
+<center>
+
+## Healthy behaviors
+
+</center>
+
+Security Researcher Alec Muffett created ["Your Cyber-5-A-Day"](https://medium.com/@alecmuffett/your-cyber-5-a-day-1f9fa1cb3067) which I think sums up a lot of behavioral ways we can create digital safety:
+
+> In an attempt to encapsulate good security practice in just five rules that you should practice daily, as part of your “business as usual”, I would propose the following —but be aware that this is not an exhaustive list of security practices, it’s just my top five “healthy behaviours” for home or business:
+
+> 1.  Install all software updates and patches promptly; if you use anti-malware software, then update it promptly, too.  
+> 2. Stop using, even erase, delete or destroy, any software or devices which are past their end-of-life, end-of-support, or for which you can no longer obtain software updates. Make sure to save any data that you want or need.  
+> 3. Use, and promote use of, different passwords for every site and app that relies upon passwords; using password management software may help.  
+> 4. Consider each piece of data you create and what would happen if you lost it, or if it leaked to the public at large. Make backups accordingly.  
+> 5. Review your security settings — iOS, Android, Facebook, Gmail, Linux, MySQL, VCL, Junos — check out what’s publicly visible and who and how can access your account or system. Keep it tidy.
 <center>
 <br>
 <br>
@@ -556,6 +574,7 @@ The Tor browser is an amazing tool that allows one to freely browse the web anon
 # <i class="far fa-question-circle" id="faq"></i> FAQ
 
 </center>
+
 
 ##  What kind of phone should I get?
  

@@ -3,21 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://eager-swirles-6028ae.netlify.com/categories/</loc>
+    <loc>https://digitalsafety.tips/</loc>
+  </url>
+  
+  <url>
+    <loc>https://digitalsafety.tips/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://eager-swirles-6028ae.netlify.com/</loc>
-  </url>
-  
-  <url>
-    <loc>https://eager-swirles-6028ae.netlify.com/series/</loc>
+    <loc>https://digitalsafety.tips/series/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://eager-swirles-6028ae.netlify.com/tags/</loc>
+    <loc>https://digitalsafety.tips/tags/</loc>
     <priority>0</priority>
   </url>
   
