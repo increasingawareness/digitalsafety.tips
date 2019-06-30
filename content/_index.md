@@ -11,15 +11,11 @@ url = "index.html"
 # <i class="far fa-eye-slash" id="adsandtrackers"></i> Block ads and malicious trackers 
 
 
-</center>
+## Brave
 
-Ads and trackers follow you around the Internet gobbling up information about you and selling it to various companies. Ads are annoying and trackers are not consensual. To avoid these issues, simply use the tools below. 
 
-<center>
 
-## Brave on mobile 
-
-On mobile, use Brave browser to block ads and malicious trackers.
+Use Brave browser to block annoying ads and malicious trackers. Available on Windows, MacOS, Linux, Android, and iOS.
 
 
 <a href="https://brave.com"><img src="/img/brave.svg" height="200" alt="brave"></a>
@@ -28,41 +24,26 @@ Switch the search engine to duckduckgo in Brave's settings.
 
 <a href="https://duckduckgo.com"><img src="/img/duckduckgo.svg" height="100" alt="duckduckgo"></a>
 
+</center>
 
-<br>
-<br>
+- Disable Brave Rewards in the settings
+- Safely sync your bookmarks from desktop to mobile and vice versa
+- Install the Bitwarden password manager extension
+- Install the Cookie-autodelete extension
 
-## Firefox on desktop
-
-On desktop, use Firefox 
-
-<a href="https://firefox.com"><img src="/img/firefox.svg" height="200" alt="firefox"></a>
-
-
-with the following extensions:
-
-[ublock origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
-<a href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/"><img src="/img/ublocko.png" height="50" alt="ublock origin"></a>
+---
 
 
-[Privacy badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/)
-<a href="https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/"><img src="/img/privacybadger.png" height="50" alt="Privacy Badger"></a>
 
-[https everywhere](https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/?src=recommended)
-<a href="https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/?src=recommended"><img src="/img/httpseverywhere.png" height="50" alt="httpseverywhere"></a>
+If you decide to use Chrome or Firefox, please install the following extensions:
 
-[cookie autodelete](https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/)
-<a href="https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/"><img src="/img/cookieautodelete.png" height="50" alt="cookie autodlete"></a>
+Ublock Origin (make sure it's "ublock origin" not another similar name)  
+HTTPS Everywhere  
+Privacy Badger  
+Cookie Autodelete  
+Bitwarden  
 
-[Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/)
-<a href="https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/"><img src="/img/decentraleyes.png" height="50" alt="Decentraleyes"></a>
-
-[Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/)
-<a href="https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/"><img src="/img/bitwardenext.png" height="50" alt="bitwarden"></a>
-
-Switch the search engine to duckduckgo in Firefox's settings.
-
-<a href="https://duckduckgo.com"><img src="/img/duckduckgo.svg" height="100" alt="duckduckgo"></a>
+<center>
 
 
 <br>
@@ -135,7 +116,7 @@ For now, we'll create two passphrases this way: one for your password manager an
 
 </center>
 
-Bitwarden is a password manager that has undergone security audits, encrypts your passwords without being able to access them, is open source, free, and multi-platform. You can even securely share passwords with others. If you're technically apt, you can even host your own server. I recommend using the app on mobile and the browser plugin on desktop for Firefox.
+Bitwarden is a password manager that has undergone security audits, encrypts your passwords without being able to access them, is open source, free, and multi-platform. You can even securely share passwords with others. If you're technically apt, you can even host your own server. I recommend using the app on mobile and the browser plugin on desktop.
 
 <center>
 
@@ -582,13 +563,39 @@ Currently, there isn't a "holy grail" of phones that combines all the aspects of
 
 ## What kind of computer should I get?
 
-### ThinkPad X200, X220, or X230
+Get a computer that can run MacOs, ChromeOS, or QubesOS.
 
-You can pick one of these up on Ebay for less than $400. They are [robust, easy to use, and will last a while](https://www.reddit.com/r/thinkpad/wiki/intro).
+### Macbook
 
-### Purism Librem Laptop
+ Get a new Macbook air or Macbook pro. Apple has gone great lengths to protect their users privacy and security. This doesn't mean to blindly trust their claims (I still wouldn't use iCloud for storage without cryptomator and I would much prefer Signal over iMessage). If you're technically literate, read about [Apple's T2 security chip](https://www.apple.com/mac/docs/Apple_T2_Security_Chip_Overview.pdf).
 
-For a more modern but expensive option, Purism [creates laptops](https://puri.sm/products/) pre-installed with Linux. 
+### Chromebook
+
+ChromeOS is developed first by the open-source team behind Chromium. Google then adds in their stuff to make ChromeOS. Before buying, just remember Google isn't privacy friendly if you use their services (Gmail, Google Drive, etc.). For a in-depth view at how the Chromium team is approaching security, [read this page.](https://www.chromium.org/chromium-os/chromiumos-design-docs/security-overview)
+
+### QubesOS on ThinkPad X200, X220, or X230
+
+You can pick one of these up on Ebay for less than $400. They are [robust, easy to use, and will last a while](https://www.reddit.com/r/thinkpad/wiki/intro). These should work well for QubesOS. I use QubesOS on a X220, and I love it. Watch Micah Lee's talk on [why qubesOS is awesome.](https://www.youtube.com/watch?v=f4U8YbXKwog)
+
+### If you really need run Linux, Fedora is the least bad security-wise
+
+Thinkpad X220 or X230 should run what you need for Fedora.
+
+<center>
+
+<p class="message">If you are a non-techie, feel free to ignore this blurb. Before fellow privacy nerds freak out, I will just say: I agree with you on principle, it would be better for all things to have source code published and code developed in an open democratic way (and copyleft or creative commons). I get it. However, the reality of the situation---even if you're running hardened gentoo or believe that SElinux solves all your problems---is that the hardware and firmware are not totally open source (even if you're running on a Talos II) . Further, the Linux kernel and distro security management (I'm looking at you Debian), are light-years behind MacOS, AOSP, or Windows. I used to believe that Linux was more secure. That was what the community told me at least. It wasn't until I started digging that I found problems. <a href="https://www.washingtonpost.com/sf/business/2015/11/05/net-of-insecurity-the-kernel-of-the-argument/?noredirect=on">This piece in the Washington Post details the issue pretty well.</a> I don't believe you can have privacy (one of the three aspects of digital safety) without security. Voyeurs would have there way without locks on doors. Privacy can't be had without security. Secrets leak without proper security management.<a href="https://thehackernews.com/2016/10/linux-kernel-exploit.html"> Remember Dirty COW?</a> "Earlier this week, Linus Torvalds admitted that 11 years ago he first spotted this issue and also tried to fix it, but then he left it unpatched because at the time it was hard to trigger." If you really like Linux, just use QubesOS. It will keep you actually safe.
+</p>
+
+
+> If you really must have a recommendation that's suitable for regular people, then get either a Chromebook or a Macbook and use the standard OS with the security features intact.
+
+> In general, the assumption that open source software is any more secure or even private in practice is totally wrong and not based on reality.
+
+> -Daniel Micay
+
+
+</center>
+
 
 
 ## Why should I care about privacy? I don't have anything to hide.
@@ -662,34 +669,6 @@ Cost: 12 € per year
 <br>
 <br>
 
----
-
-
-
-## <i class="fab fa-linux"></i> Install Linux
-
-It's not as scary as it sounds.
-
-There are different types of Linux (called distributions). Here are my recommendations:
-
-<center>
-
-### [Ubuntu](https://www.ubuntu.com/)
-
-Ubuntu is the easiest to install and use out of the box.
-
-### [Debian](https://www.debian.org/)
-
-Solid choice and number one recommendation.
-
-### [Fedora](https://getfedora.org/)
-
-Popular and long-lasting Linux distribution.
-
-</center>
-
-<br>
-<br>
 
 ---
 
