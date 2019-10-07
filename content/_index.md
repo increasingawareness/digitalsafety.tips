@@ -3,47 +3,59 @@ url = "index.html"
 +++
 
  Welcome to digitalsafety.tips, a guidebook aimed at simple solutions to keep people safe, secure, and private in the digital world.
+ 
+ Need a quick overview? You can jump to the [summary](#summary).
 
 <img src="/img/reading.jpg" alt="person reading">
 
 <center>
 
-# <i class="far fa-eye-slash" id="adsandtrackers"></i> Block ads and malicious trackers 
-
-
-## Brave
+# <i class="fas fa-user-shield" id="browse-safely"></i> Browse safely 
 
 
 
-Use Brave browser to block annoying ads and malicious trackers. Available on Windows, MacOS, Linux, Android, and iOS.
 
 
-<a href="https://brave.com"><img src="/img/brave.svg" height="200" alt="brave"></a>
+ 
 
-Switch the search engine to duckduckgo in Brave's settings.
+## Desktop
+
+ <a href="https://chrome.com"><img src="/img/chrome.svg" alt="Chrome" height="100" align="center"></a><a href="https://brave.com"><img src="/img/brave.svg" alt="Brave" height="100" align="center"></a>
+ 
+ Use Chrome or Brave on your computer with the following extensions:
+
+
+[Ublock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)  
+[HTTPS Everywhere](https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp)  
+[Privacy Badger](https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp)  
+[Cookie Autodelete](https://chrome.google.com/webstore/detail/cookie-autodelete/fhcgjolkccmbidfldomjliifgaodjagh)  
+[Bitwarden](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)  
+
+
+## Mobile
+
+<a href="https://brave.com"><img src="/img/brave.svg" alt="Brave" height="100" align="center"></a><a href="https://bromite.org"><img src="/img/bromite.png" alt="Bromite" height="100" align="center"></a>
+
+
+Use Brave (iOS/Android) or Bromite (Android) on mobile.
+
+
+
+
+
+## <i class="fas fa-clipboard-check"></i> Browser setup
+
+
+Switch the search engine to duckduckgo in the browser settings.
 
 <a href="https://duckduckgo.com"><img src="/img/duckduckgo.svg" height="100" alt="duckduckgo"></a>
 
-</center>
+Uncheck "allow Chrome sign-in" in Chrome's settings
 
-- Disable Brave Rewards in the settings
-- Safely sync your bookmarks from desktop to mobile and vice versa
-- Install the Bitwarden password manager extension
-- Install the Cookie-autodelete extension
-
----
+Disable Brave Rewards in Brave's settings
 
 
-
-If you decide to use Chrome or Firefox, please install the following extensions:
-
-Ublock Origin (make sure it's "ublock origin" not another similar name)  
-HTTPS Everywhere  
-Privacy Badger  
-Cookie Autodelete  
-Bitwarden  
-
-<center>
+<p class="message">If you have an objection for whatever reason to using a Chromium based browser, you can use Firefox with the extensions listed above, but know that it has much less protection against exploits and security hardening.</p>
 
 
 <br>
@@ -559,11 +571,11 @@ The Tor browser is an amazing tool that allows one to freely browse the web anon
 
 ##  What kind of phone should I get?
  
-Currently, there isn't a "holy grail" of phones that combines all the aspects of digital safety (safe, secure, and private by design). The best option you can have in your hand right now is probably an iPhone or Pixel 3  [according to Daniel Micay](https://www.reddit.com/r/GrapheneOS/comments/bddq5u/os_security_ios_vs_grapheneos_vs_stock_android/ekxifpa?utm_source=share&utm_medium=web2x), a [prominent mobile security developer](https://twitter.com/Snowden/status/1047618052089696257).
+The best option you can have in your hand right now is a Pixel or an iPhone  [according to Daniel Micay](https://www.reddit.com/r/GrapheneOS/comments/bddq5u/os_security_ios_vs_grapheneos_vs_stock_android/ekxifpa?utm_source=share&utm_medium=web2x), who is a [prominent mobile security developer](https://twitter.com/Snowden/status/1047618052089696257).
 
 ## What kind of computer should I get?
 
-Get a computer that can run MacOs, ChromeOS, or QubesOS.
+Get a computer that can run MacOS, ChromeOS, or QubesOS.
 
 ### Macbook
 
@@ -634,7 +646,13 @@ For more:
 
 ## <i class="far fa-envelope" id="email"></i> Change your email
 
-The following four email providers have shown dedication to keeping your information safe. Pick one and make the migration from less friendly services.
+Email is fundamentally an insecure protocol, you should use Signal or Wire to keep your conversations safe.
+
+> Encrypting email is asking for a calamity. Recommending email encryption to at-risk users is malpractice. Anyone who tells you it’s secure to communicate over PGP-encrypted email is putting their weird preferences ahead of your safety.
+
+> -[Latacora](https://latacora.micro.blog/2019/07/16/the-pgp-problem.html#)
+
+That being said, the following four email providers have shown dedication to keeping your information safe and not sell your information to advertisers. This will not "secure your email", but it is safer than using gmail or most other popular services. Pick one and make the migration from less friendly services.
 
 <center>
 
@@ -674,10 +692,18 @@ Cost: 12 € per year
 
 ## <i class="far fa-hdd"></i> Backup your files
 
-No one wants to lose all their data. Keeping encrypted backups on an external hard drive allows you to keep a snapshot of your system over time. If something goes wrong, you can restore to a previous time. For a cross-platform tool, check out [Duplicati](https://www.duplicati.com/). MacOS has the [Time Machine](https://support.apple.com/en-us/HT201250) backup utility available. I recommend using [BorgBackup](https://www.borgbackup.org/) for Linux.
+No one wants to lose all their data. Keeping encrypted backups on an external hard drive allows you to keep a snapshot of your system over time. If something goes wrong, you can restore to a previous time. For a cross-platform tool, check out [Duplicati](https://www.duplicati.com/).
+
+I recommend using [BorgBackup](https://www.borgbackup.org/) for MacOS and Linux.  
+A graphical app that uses Borgbackup is called [Vorta](https://vorta.borgbase.com). It makes backups simple. 
 
 
 You may want to consider keeping cloud backups. This means that you're storing your files on a company's servers (they take care of redundancy). It's recommended to use software like Cryptomator so that these companies don't have access to the contents of your files.
+
+Cloud backup providers that support zero-knowledge backups (where the provider can't see your data) by default:
+
+- https://Borgbase.com
+- https://tarsnap.com
 
 <br>
 <br>
@@ -811,6 +837,33 @@ Privacy and anonymity researcher Sarah Jamie Lewis points out that using a virtu
 
 ---
 
+
+# <i class="fas fa-list-ol" id="summary"></i> Summary
+
+1. Use a Chromium based browser for most tasks (Chrome, Brave, Bromite)
+2. Use Signal for communication
+3. Use Dice based passphrases
+4. Use a password manager
+5. Use two-factor authentication
+6. Sign up for haveibeenpwned
+7. Educate yourself on how to spot phishing and best daily practices
+8. Use Syncthing to keep your data in sync
+9. Turn on auto-updates
+10. Keep a passcode on your phone
+11. Stay informed, sign up for updates from the This Week in Security newsletter and the EFF
+12. Use other tools like Tor browser, Wire and veracrypt depending on your needs
+13. Phone: get a pixel or iPhone
+14. Computer: get a Macbook, Chromebook, or Qubes capable laptop
+15. Privacy is important
+16. Email: it's an insecure protocol, but Posteo, Tutanota, Protonmail, and Mailbox.org are a bit better than others
+17. Use Borg and Vorta to backup your devices. Perhaps use borgbase or Tarsnap.
+18. Get a PFsense router for your home network
+19. Social media is a dumpster fire; leave it.
+20. Carry a second factor token (Yubikey, Trezor, Onlykey)
+21. VPNs aren't really privacy friendly. Tor is better for private activities.
+
+---
+
 ## <i class="fas fa-user" id="about"></i> About
 
 This site was aimed at the layperson and was intended to get privacy-security preserving tech into the hands of as many people as possible. Therefore, it may not meet your needs if you require a higher level of anonymity or have a complex threat model. If your needs are greater than this project, please check out the following:
@@ -834,7 +887,7 @@ My handle is <a href="https://github.com/increasingawareness">@increasingawarene
 
 Wire messenger - @increasingawareness  
 XMPP - gmj@conversations.im  
-Email - digitalsafety@protonmail.com
+Email - digitalsafety@tuta.io
 
 
 
@@ -950,5 +1003,5 @@ Original content of this site is published into the public domain under the crea
 
 <p>Additionally, the end-user retains all liability of using the services listed here and will not hold liable digitalsafety.tips or its creators.</p>
 
-<p>Logos and screenshots used under fair-use. This site will comply with DMCA notices or takedown messages. Please contact the site by emailing digitalsafety@protonmail.com</p>
+<p>Logos and screenshots used under fair-use. This site will comply with DMCA notices or takedown messages. Please contact the site by emailing digitalsafety@tuta.io</p>
 </center>
