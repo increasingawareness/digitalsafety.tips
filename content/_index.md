@@ -652,7 +652,7 @@ Email is fundamentally an insecure protocol, you should use Signal or Wire to ke
 
 > -[Latacora](https://latacora.micro.blog/2019/07/16/the-pgp-problem.html#)
 
-That being said, the following four email providers have shown dedication to keeping your information safe and not sell your information to advertisers. This will not "secure your email", but it is safer than using gmail or most other popular services. Pick one and make the migration from less friendly services.
+That being said, the following four email providers have shown dedication to keeping your information safe. This will not "secure your email", but it is safer than using gmail or most other popular services, since their business models aren't based on advertising. Pick one and make the migration from less friendly services.
 
 <center>
 
