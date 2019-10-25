@@ -589,7 +589,7 @@ ChromeOS is developed first by the open-source team behind Chromium. Google then
 
 You can pick one of these up on Ebay for less than $400. They are [robust, easy to use, and will last a while](https://www.reddit.com/r/thinkpad/wiki/intro). These should work well for QubesOS. I use QubesOS on a X220, and I love it. Watch Micah Lee's talk on [why qubesOS is awesome.](https://www.youtube.com/watch?v=f4U8YbXKwog)
 
-### If you really need run Linux, Fedora is the least bad security-wise
+### If you really need to run Linux, Fedora is the least bad security-wise
 
 Thinkpad X220 or X230 should run what you need for Fedora.
 
