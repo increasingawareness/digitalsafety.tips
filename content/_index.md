@@ -4,58 +4,61 @@ url = "index.html"
 
  Welcome to digitalsafety.tips, a guidebook aimed at simple solutions to keep people safe, secure, and private in the digital world.
  
- Need a quick overview? You can jump to the [summary](#summary).
+ You can scroll through the site or [click here for a quick summary.](/#summary)
 
 <img src="/img/reading.jpg" alt="person reading">
 
 <center>
 
-# <i class="fas fa-user-shield" id="browse-safely"></i> Browse safely 
+# <i class="fas fa-user-shield" id="browser"></i> Browse safely 
 
+Chrome and Safari are two of the safest browsers.
 
+ <a href="https://chrome.com"><img src="/img/chrome.svg" alt="Chrome" height="100" align="center"></a>
+ <a href="https://www.apple.com/safari/"><img src="/img/safari.svg" alt="Safari" height="100" align="center"></a>
 
+## Chrome Desktop Add-Ons
 
+These add-ons for Chrome can be useful for a better desktop browsing experience. For this reason, you might prefer using Chrome on Apple desktop computers instead of Safari. Chrome can be used across all platforms, whereas Safari is only available on Apple products. 
 
- 
-
-## Desktop
-
- <a href="https://chrome.com"><img src="/img/chrome.svg" alt="Chrome" height="100" align="center"></a><a href="https://brave.com"><img src="/img/brave.svg" alt="Brave" height="100" align="center"></a>
- 
- Use Chrome or Brave on your computer with the following extensions:
-
-
-[Ublock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)  
-[HTTPS Everywhere](https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp)  
-[Privacy Badger](https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp)  
-[Cookie Autodelete](https://chrome.google.com/webstore/detail/cookie-autodelete/fhcgjolkccmbidfldomjliifgaodjagh)  
-[Bitwarden](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)  
-
-
-## Mobile
-
-<a href="https://brave.com"><img src="/img/brave.svg" alt="Brave" height="100" align="center"></a><a href="https://bromite.org"><img src="/img/bromite.png" alt="Bromite" height="100" align="center"></a>
-
-
-Use Brave (iOS/Android) or Bromite (Android) on mobile.
-
-
+ [Ublock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)  
+ [HTTPS Everywhere](https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp)  
+ [Cookie Autodelete](https://chrome.google.com/webstore/detail/cookie-autodelete/fhcgjolkccmbidfldomjliifgaodjagh)  
 
 
 
 ## <i class="fas fa-clipboard-check"></i> Browser setup
 
 
-Switch the search engine to duckduckgo in the browser settings.
+Switch the search engine to duckduckgo in the browser settings (both Chrome and Safari).
 
 <a href="https://duckduckgo.com"><img src="/img/duckduckgo.svg" height="100" alt="duckduckgo"></a>
 
-Uncheck "allow Chrome sign-in" in Chrome's settings
-
-Disable Brave Rewards in Brave's settings
+You may want to uncheck "allow Chrome sign-in" in Chrome's settings if you're not on a Chromebook or if you don't want data to be synced with Google.
 
 
-<p class="message">If you have an objection for whatever reason to using a Chromium based browser, you can use Firefox with the extensions listed above, but know that it has much less protection against exploits and security hardening.</p>
+<br>
+<br>
+
+---
+
+# <i class="fas fa-shield-alt" id="ads"></i>  Block most ads and trackers 🆕
+
+[AdguardDNS](https://adguard.com/en/adguard-dns/overview.html) and [NextDNS](https://nextdns.io/) are services that keep you safer and reduce intrusive ads.
+
+## Android
+
+On Android, you'll want to go to settings and search for: Private DNS. Add `dns.adguard.com` to the "Private DNS provider hostname" field. Switch into and out of airplane mode. That's it! You're successfully blocking ads everywhere you go. You can use NextDNS instead if you'd like.
+
+## iOS/iPadOS
+
+Native DNS control is coming to iOS/iPadOS 14, but until then you'll want to use the [NextDNS app](https://apps.apple.com/us/app/nextdns/id1463342498).
+
+## All other systems (Mac, Windows, ChromeOS, etc.)
+
+Most other systems should be using the Ublock Origin extension in Chrome as discussed above (it can also be used in Microsoft's Edge browser). 
+
+Another option is to use the [NextDNS](https://nextdns.io/) app if using a browser like Safari or other desktop browsers that don't support Ublock Origin.
 
 
 <br>
@@ -64,7 +67,7 @@ Disable Brave Rewards in Brave's settings
 ---
 
 
-# <i class="fas fa-comments" id="chat"></i> Keep conversations yours
+# <i class="fas fa-comments" id="signal"></i> Keep conversations yours
 
 ## Signal Messenger for Mobile and Desktop
 
@@ -154,42 +157,80 @@ There are three main types of authentication:
 |-------------------------------------------------------|----------------------------------------------------------------------------------------------------|
 | Text message or phone call                            | Get an automated text or phone call and enter the code you read or hear.                           |
 | App on your phone                                                  | Copy the time based code from an app on your phone.                                                |
-| Specialized device like a Yubikey, Onlykey, or Trezor | Press a button on the device or tap the device to your phone (see [next level steps](#nextlevel)). |
+| A security key such as a Yubikey | Press a button on the device or tap the device to your phone. |
 
 <br>
 
 </center>
 
-Prefer apps and specialized devices over text message authentication. However, text message based 2FA is better than not having any at all.
 
-Go to https://twofactorauth.org/ to see some sites that support 2FA. Most banks, social media networks, and email providers have 2FA.
+
+
+Prefer security keys over apps, prefer apps over text message authentication. Text message based 2FA is better than not having any at all.
+
+
+
 
 <p class="message"><i class="fas fa-exclamation-triangle"></i> Note that security questions don't count as a second-factor. Security questions are very easy to guess or find out about a person, and are extremely risky to use in place of the above  methods. If you must use a security question, I recommend using a random string of characters as the answer to the question. Then save it in your password manager.</p> 
 
 <center>
 
-<br>
+## Security Keys 🆕
 
-## andOTP for Android
+</center>
 
-<a href="https://play.google.com/store/apps/details?id=org.shadowice.flocke.andotp"><img src="/img/andotp.svg" height="200" alt="andOTP"></a>
+> “Even highly-targeted users like politicians and activists don’t fully appreciate the scourge of phishing, and many aren’t familiar with an emerging form of two-factor authentication known as “Security Keys” that we hope can stop it in its tracks … phishing is the silent killer, and relying on a password alone is a recipe for disaster. 🔐” -Mark Risher’s Phishing and Security Keys
+
+Security keys are the future of authentication. App based or text-message based codes are now considered to be legacy authentication. We are moving to an era when security keys are the main path to both authentication and passwordless systems. A few larger services such as Google, Microsoft, Dropbox, Github, Facebook, and Twitter currently support security keys.  [Dongleauth](https://www.dongleauth.info/) is a site that shows what current services work with security keys. 
+
+
+<center>
+
+<a href="https://www.yubico.com/product/yubikey-5-nfc/#yubikey-5-nfc"><img src="/img/yubikey.jpg" height="200" alt="yubikey"></a>
+
+</center>
+
+The security key I currently recommend is the [Yubikey 5 NFC](https://www.yubico.com/product/yubikey-5-nfc/#yubikey-5-nfc).
+
+
+There are variety of types to fit your needs. Most likely you'll want the Yubikey 5 series which supports the newest standards. If you have a newer Macbook, Chromebook, or 2020 iPad Pro, you'll want to make sure to get a USB-C compatible Yubikey.
+
+You'll want two of them (one is a backup).
+
+<center>
+
+## 2FA Apps
+
+
+### Aegis for Android 🆕
+
+<a href="https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis"><img src="/img/aegis.png" height="100" alt="aegis"></a>
 <br>
 </center>
 
-<p class="message"><i class="fas fa-exclamation-triangle"></i> Important—andOTP has the ability to backup security keys to wherever you would like. It is highly recommended to keep consistent and encrypted backups of your 2FA keys.</p>
+<p class="message"><i class="fas fa-exclamation-triangle"></i> Important—Aegis has the ability to backup security keys to wherever you would like. It is highly recommended to keep consistent and encrypted backups of your 2FA keys.</p>
 
 <br>
 <center>
 
-## Tofu for iOS
+### Tofu for iOS
 
-<a href="https://itunes.apple.com/app/tofu-authenticator/id1082229305"><img src="/img/tofu.svg" height="200" alt="Tofu"></a>
+<a href="https://itunes.apple.com/app/tofu-authenticator/id1082229305"><img src="/img/tofu.svg" height="100" alt="Tofu"></a>
 <br>
 </center>
 
 <p class="message"><i class="fas fa-exclamation-triangle"></i> Important—2FA keys are stored on your iPhone's secure keychain, so only iTunes/iCloud encrypted backups will include a backup to these keys. If you're restoring your device from an iTunes/iCloud backup, the app and all keys will be restored as well.</p>
 
 <center>
+
+Go to https://twofactorauth.org/ to see some sites that support app based 2FA. Most banks, social media networks, and email providers have 2FA.
+
+
+
+
+<br>
+
+
 <br>
 <br>
 
@@ -212,7 +253,34 @@ Created by security expert Troy Hunt, "Have I been Pwned?" is a service that kee
 ---
 
 
-# <i class="fas fa-skull-crossbones" id="phishing"></i> Phishing, scams, remote access, behaviors
+# <i class="far fa-envelope" id="email"></i> A Note on Email. 🆕
+
+</center>
+
+Email is fundamentally a non-private protocol, you should use Signal Messenger to keep your conversations private.
+
+> Encrypting email is asking for a calamity. Recommending email encryption to at-risk users is malpractice. Anyone who tells you it’s secure to communicate over PGP-encrypted email is putting their weird preferences ahead of your safety.
+
+> -[Latacora](https://latacora.micro.blog/2019/07/16/the-pgp-problem.html#)
+
+This is not to say that email is insecure. Security and privacy are facets of digital safety rather than a simple binary decision. This is why I advocate that **most people should use Gmail and activate Google's [Advanced Protection Program](https://landing.google.com/advancedprotection/).** Email security is important. We sign up for most accounts with an email address which means that all reset-password-links are sent to that email address. If someone has access to your email or successfully phishes your email, it could be game over for the rest of your accounts. As far as mainstream email providers go, Google has by far the best security with its Advanced Protection Program. 
+
+If you object to using Google's services, [Tutanota](https://tutanota.com) supports using security keys and may be a reasonable alternative.
+
+## And what about phishing?
+ 
+ > "Phishing is when a scammer uses fraudulent emails or texts, or copycat websites to get you to share valuable personal information – such as account numbers, Social Security numbers, or your login IDs and passwords. Scammers use your information to steal your money or your identity or both. Scammers also use phishing emails to get access to your computer or network then they install programs like ransomware that can lock you out of important files on your computer. Phishing scammers lure their targets into a false sense of security by spoofing the familiar, trusted logos of established, legitimate companies. Or they pretend to be a friend or family member." -[Federal Trade Commission](https://www.consumer.ftc.gov/articles/0003-phishing)
+ 
+ For more on phishing, check out [this comic](https://theintercept.com/2017/11/19/how-to-protect-yourself-against-spearphishing-a-comic-explanation/) from *The Intercept*.
+
+<br>
+<br>
+
+
+---
+<center>
+
+#  <i class="fas fa-chess" id="mindset"></i> Security Mindset
 
 
 
@@ -221,108 +289,52 @@ Created by security expert Troy Hunt, "Have I been Pwned?" is a service that kee
 In general:
 
 - If it sounds too good to be true, it usually is.
-- Verify that you are [seeing "https" when visiting websites](https://www.howtogeek.com/181767/htg-explains-what-is-https-and-why-should-i-care/).
-- Don't click on links in emails you don't know.
-- Don't open or download files from a source you don't know.
-- [If it's a supposed government agency, they will get a hold of by official means (the IRS will never call you, they will send you postal mail)](https://www.youtube.com/watch?v=0y5z0kWgBcM).
-- Don't be fooled by visual similarities, always verify who is contacting you.
+- Don't open or download files or click on links in emails from a source you don't know.
+- [If it's a supposed government agency, they will get a hold of you by official means (the IRS will never call you, they will send you postal mail)](https://www.irs.gov/newsroom/how-to-know-its-really-the-irs-calling-or-knocking-on-your-door).
+- [It's easy to be fooled by visual similarities](https://twitter.com/glenmaddern/status/1278252319646367744?s=20), always verify who is contacting you. Using a password manager and a security key can help with this.
 - [Pay attention to browser alerts and security exceptions](https://support.mozilla.org/en-US/kb/what-does-your-connection-is-not-secure-mean).
-- [Be very careful of shortened links](https://www.schneier.com/blog/archives/2016/04/security_risks_11.html).
-
-
-
-<center>
-
-<img src="/img/phonecall.jpg" height="200" alt="phonecall">
-
-## Inspect emails carefully
-
-</center>
-
-> "Phishing is when a scammer uses fraudulent emails or texts, or copycat websites to get you to share valuable personal information – such as account numbers, Social Security numbers, or your login IDs and passwords. Scammers use your information to steal your money or your identity or both. Scammers also use phishing emails to get access to your computer or network then they install programs like ransomware that can lock you out of important files on your computer. Phishing scammers lure their targets into a false sense of security by spoofing the familiar, trusted logos of established, legitimate companies. Or they pretend to be a friend or family member." -[Federal Trade Commission](https://www.consumer.ftc.gov/articles/0003-phishing)
-
-<center>
-
-<br>
-
-## Don't trust; verify.
-
-</center>
-
-It's relatively easy to trust what people say. When it comes to your personal information remember the above maxim. Verify who people are and what they are doing is essential when dealing with tech support, financial institutions, or businesses. This process helps you avoid [social engineering](https://www.us-cert.gov/ncas/tips/ST04-014). In general, don't allow people to remote access your computer unless your business-place has this setup to begin with. 
-
-<center>
-
-<br>
-
-## Keep it secret; keep it safe.
-
-</center>
-
-As the wise wizard said. Corollaries to this phrase include:
-
 - ["loose-lips sink ships"](https://en.wikipedia.org/wiki/Operations_security)
 - ["The Internet is forever"](https://www.inc.com/meredith-fineman/what-we-post-online-is-forever-and-we-need-a-reminder.html)
-- ["On a need-to-know basis"](https://www.youtube.com/watch?v=YEiu7uYCfPE)
+- Only hand out information ["on a need-to-know basis"](https://www.youtube.com/watch?v=YEiu7uYCfPE)
+- Avoid using [novelty apps](https://business.financialpost.com/technology/tim-hortons-app-tracking-customers-intimate-data) or even [some social media apps](https://www.theverge.com/2020/6/26/21304228/tiktok-security-ios-clipboard-access-ios14-beta-feature).
+- Only install apps you need or have reason to trust.
+
+
+Verifying who people are and what they are doing is essential when dealing with tech support, financial institutions, or businesses. This process helps you avoid [social engineering](https://www.us-cert.gov/ncas/tips/ST04-014). In general, don't allow people to remote access your computer unless your business-place has this setup to begin with. 
+
+
+
 
 <p class="message"><i class="fas fa-exclamation-triangle"></i> Additionally, avoid using "smart" appliances or home assistants (Amazon's Alexa, Google Home, etc.). These are set up to listen in constantly, using the information from your everyday life as a means for profit.</p>
 
 
 
-For more on phishing, check out [this comic](https://theintercept.com/2017/11/19/how-to-protect-yourself-against-spearphishing-a-comic-explanation/) from *The Intercept*.
 
-<center>
-
-## Healthy behaviors
-
-</center>
-
-Security Researcher Alec Muffett created ["Your Cyber-5-A-Day"](https://medium.com/@alecmuffett/your-cyber-5-a-day-1f9fa1cb3067) which I think sums up a lot of behavioral ways we can create digital safety:
-
-> In an attempt to encapsulate good security practice in just five rules that you should practice daily, as part of your “business as usual”, I would propose the following —but be aware that this is not an exhaustive list of security practices, it’s just my top five “healthy behaviours” for home or business:
-
-> 1.  Install all software updates and patches promptly; if you use anti-malware software, then update it promptly, too.  
-> 2. Stop using, even erase, delete or destroy, any software or devices which are past their end-of-life, end-of-support, or for which you can no longer obtain software updates. Make sure to save any data that you want or need.  
-> 3. Use, and promote use of, different passwords for every site and app that relies upon passwords; using password management software may help.  
-> 4. Consider each piece of data you create and what would happen if you lost it, or if it leaked to the public at large. Make backups accordingly.  
-> 5. Review your security settings — iOS, Android, Facebook, Gmail, Linux, MySQL, VCL, Junos — check out what’s publicly visible and who and how can access your account or system. Keep it tidy.
 <center>
 <br>
 <br>
 
 ---
 
-# <i class="fas fa-cloud-upload-alt" id="cloud"></i> Be your own cloud
-
+# <i class="fas fa-cloud-upload-alt" id="backup"></i>  "Consider each piece of data you create and what would happen if you lost it, or if it leaked to the public at large. Make backups accordingly." -Security Researcher [Alec Muffett](https://medium.com/@alecmuffett/your-cyber-5-a-day-1f9fa1cb3067)
 </center>
 
-Usually, a cloud is comprised of a specific company's servers. Servers are just computers and storage devices that are accessible over a network. In this case, when you access something on Apple's cloud, Dropbox, Google drive, etc., your device is actually logging onto that company's server and accessing from there. This solves a great many problems, but it creates a few weighty ones too. The weightiest is that your personal data exists on a device controlled by companies that want to make money off of you. 
+The cloud is not a bad place to store some types of data. It depends on what you want to do and who you trust. Apple seems fairly reasonable and iCloud may be a good resource for storing family photos or other files. However, this is all about who you trust. New solutions [are in development](https://github.com/cloudflare/utahfs) to keep data secure in a zero-knowledge way (where the cloud provider can't see your data even if they wanted to). You may also want to use a tool like [Syncthing](https://syncthing.net) to sync folders and files on your own terms. If you want to use tools like Google Drive or Dropbox: that's fine, just remember that someone else may have access to that information.
 
-<br>
- 
- <center>
+Keep backups. If you've decided to keep everything in the cloud for backups, it's still recommended to have an offline backup on an external drive to increase redundancy (in information integrity, redundancy is a good thing). Store this someplace safe, and make sure the backup is encrypted. 
 
-## Syncthing
+Safe ways to backup your data to external media:
 
-<a href="https://syncthing.net"><img src="/img/syncthing.svg" height="200" alt="syncthing"></a>
+- For [iOS/iPadOS](https://support.apple.com/en-us/HT205220)
+- For Windows, you'll want to [create a system image](https://support.microsoft.com/en-us/help/17127/windows-back-up-restore) and save it to an external drive [using Veracrypt](https://www.veracrypt.fr/en/Home.html).
+- For MacOS, you'll most likely want to use the [integrated Time Machine backup app](https://support.apple.com/en-us/HT201250) (don't forget to check the encrypt backup checkbox). 
 
-</center>
+Cloud backup providers that support zero-knowledge backups (where the provider can't see your data) by default:
 
-Syncthing allows you to sync folders and files to each of your devices and work collaboratively with others. You could sync your photos in a family folder, edit files for a collaborative project, or keep the photos on your phone backed up to your main computer. This tool currently works with Android, MacOS, Windows, and Linux. An iOS version does not currently exist. If you need a cloud tool that works with iOS, check out Cryptomator below.
+- https://Borgbase.com (MacOS)
+- https://tarsnap.com (MacOS)
+- https://sync.com (Most platforms)
 
-<br>
-
-<center>
-
-## Cryptomator
-
-<a href="https://cryptomator.org"><img src="/img/cryptomator.png" height="200" alt="cryptomator"></a>
-
-</center>
-
-Cryptomator is a tool that works with current cloud providers (Google Drive, iCloud, Dropbox, and more). The main benefit is that your data stays yours---those companies aren't able to access your data since it's encrypted. It works on all the major platforms.
-
-<center>
 <br>
 <br>
 
@@ -419,25 +431,38 @@ It depends on what Linux distribution you have and how it have it configured. If
 
 ---
 
+#  <i class="fas fa-skull-crossbones" id="eol"></i> "Stop using, even erase, delete or destroy, any software or devices which are past their end-of-life, end-of-support, or for which you can no longer obtain software updates. Make sure to save any data that you want or need." -Security Researcher [Alec Muffett](https://medium.com/@alecmuffett/your-cyber-5-a-day-1f9fa1cb3067) 🆕
+
+Every week there are dozens of [new security vulnerabilities reported](https://us-cert.cisa.gov/ncas/bulletins) that need to be patched. Most devices are patched monthly. Devices are complicated and require constant adjustments to code for each specific device that is made. Sometimes there are even issues with the way the hardware is structured on the device. Eventually, devices aren't supported anymore and need to be replaced. Devices without security updates are dangerous and should not be used. 
+
+<br>
+<br>
+
+---
+
 # <i class="fas fa-user-lock" id="lockitdown"></i> Keep your devices on lock
 
 </center>
 
-Please keep a passcode on your phone! Today, most modern phones (both Android and iOS) also encrypt your data so you can be sure that if you lose your device or if someone steals it, no one else can have access to it. 
+Please keep a passcode on your phone! Today, most modern phones (both Android and iOS) automatically encrypt your data so you can be sure that if you lose your device or if someone steals it, no one else can have access to it. 
+
+You'll want to keep your phone locked with a numbered passcode that is 10 digits or longer:
 
 <center>
 
-<img src="/img/phonelock.jpg" height="200" alt="phonelock">
+<img src="img/passcode.png" alt="passcode tweet">
 
 </center>
 
-On Windows, you may want to consider using [Veracrypt](https://www.veracrypt.fr/en/Home.html). 
+On Windows, Bitlocker [can be activated to encrypt your hard drive](https://support.microsoft.com/en-us/help/4502379/windows-10-device-encryption).
 
 Apple computers also have [FileVault](https://support.apple.com/en-us/HT204837), which protects the data on your Mac. Go into the settings and activate it.
 
-On Linux, you can enable encryption on install.
+ChromeOS is [encrypted by default](https://www.chromium.org/chromium-os/chromiumos-design-docs/protecting-cached-user-data). 
 
-If you want to learn more about this subject, the EFF has [an excellent guide](https://ssd.eff.org/en/module/keeping-your-data-safe) on keeping your data safe.
+Android devices that were released with Android 10 and later [require encryption](https://source.android.com/security/encryption/file-based) by default. You can also verify this by searching for "encryption" in the settings.
+
+iOS and iPadOS devices [are encrypted](https://support.apple.com/guide/security/encryption-and-data-protection-overview-sece3bee0835/web) as long as there is a passcode in place.
 
 <center>
 
@@ -446,6 +471,9 @@ If you want to learn more about this subject, the EFF has [an excellent guide](h
 
 ---
 
+
+
+<center>
 
 # <i class="fas fa-bullhorn" id="informed"></i> Stay informed
 
@@ -524,17 +552,6 @@ Using a similar protocol to Signal, Wire is a commercial company that allows for
 <a href="https://wire.com/en/products/personal-secure-messenger/"><img src="/img/wire.png" height="100" alt="wire"></a>
 
 <br>
-
-## Desktop: Encrypt files or disks with Veracrypt
-
-</center>
-
-Veracrypt allows one to keep files in a secure container or encrypt whole disks.
-
-<center>
-
-<a href="https://www.veracrypt.fr/en/Home.html"><img src="/img/veracrypt.png" height="100" alt="veracrypt"></a>
-
 <br>
 
 ## Mobile/Desktop: Keep your searches and perusing anonymous with Tor
@@ -569,48 +586,57 @@ The Tor browser is an amazing tool that allows one to freely browse the web anon
 </center>
 
 
-##  What kind of phone should I get?
+##  <i id="phone"></i> What kind of phone should I get?
+
+</center>
  
-The best option you can have in your hand right now is a Pixel or an iPhone  [according to Daniel Micay](https://www.reddit.com/r/GrapheneOS/comments/bddq5u/os_security_ios_vs_grapheneos_vs_stock_android/ekxifpa?utm_source=share&utm_medium=web2x), who is a [prominent mobile security developer](https://twitter.com/Snowden/status/1047618052089696257).
-
-## What kind of computer should I get?
-
-Get a computer that can run MacOS, ChromeOS, or QubesOS.
-
-### Macbook
-
- Get a new Macbook air or Macbook pro. Apple has gone great lengths to protect their users privacy and security. This doesn't mean to blindly trust their claims (I still wouldn't use iCloud for storage without cryptomator and I would much prefer Signal over iMessage). If you're technically literate, read about [Apple's T2 security chip](https://www.apple.com/mac/docs/Apple_T2_Security_Chip_Overview.pdf).
-
-### Chromebook
-
-ChromeOS is developed first by the open-source team behind Chromium. Google then adds in their stuff to make ChromeOS. Before buying, just remember Google isn't privacy friendly if you use their services (Gmail, Google Drive, etc.). For a in-depth view at how the Chromium team is approaching security, [read this page.](https://www.chromium.org/chromium-os/chromiumos-design-docs/security-overview)
-
-### QubesOS on ThinkPad X200, X220, or X230
-
-You can pick one of these up on Ebay for less than $400. They are [robust, easy to use, and will last a while](https://www.reddit.com/r/thinkpad/wiki/intro). These should work well for QubesOS. I use QubesOS on a X220, and I love it. Watch Micah Lee's talk on [why qubesOS is awesome.](https://www.youtube.com/watch?v=f4U8YbXKwog)
-
-### If you really need to run Linux, Fedora is the least bad security-wise
-
-Thinkpad X220 or X230 should run what you need for Fedora.
+The best option you can have in your hand right now is an Apple iPhone or a current generation Google Pixel with the security features intact  [according to security researcher Daniel Micay](https://www.reddit.com/r/GrapheneOS/comments/bddq5u/os_security_ios_vs_grapheneos_vs_stock_android/ekxifpa?utm_source=share&utm_medium=web2x).
 
 <center>
 
-<p class="message">If you are a non-techie, feel free to ignore this blurb. Before fellow privacy nerds freak out, I will just say: I agree with you on principle, it would be better for all things to have source code published and code developed in an open democratic way (and copyleft or creative commons). I get it. However, the reality of the situation---even if you're running hardened gentoo or believe that SElinux solves all your problems---is that the hardware and firmware are not totally open source (even if you're running on a Talos II) . Further, the Linux kernel and distro security management (I'm looking at you Debian), are light-years behind MacOS, AOSP, or Windows. I used to believe that Linux was more secure. That was what the community told me at least. It wasn't until I started digging that I found problems. <a href="https://www.washingtonpost.com/sf/business/2015/11/05/net-of-insecurity-the-kernel-of-the-argument/?noredirect=on">This piece in the Washington Post details the issue pretty well.</a> I don't believe you can have privacy (one of the three aspects of digital safety) without security. Voyeurs would have there way without locks on doors. Privacy can't be had without security. Secrets leak without proper security management.<a href="https://thehackernews.com/2016/10/linux-kernel-exploit.html"> Remember Dirty COW?</a> "Earlier this week, Linus Torvalds admitted that 11 years ago he first spotted this issue and also tried to fix it, but then he left it unpatched because at the time it was hard to trigger." If you really like Linux, just use QubesOS. It will keep you actually safe.
+## <i id="computer"></i> What kind of computer should I get?
+
+</center>
+
+Choices: iPad Pro, Pixelbook Go Chromebook, Macbook air, or a PC that can run Windows 10 S.
+
+
+### iPad Pro 🆕
+
+Apple has gone great lengths to protect their users privacy and security. An iPad Pro paired with the Magic Keyboard is a great choice for the user who wants a solid, long-lasting, all around well-performing device. Additionally, Apple is currently in the process of switching all of their Mac lineup to the same or similar chips that are in the iPad pros. This means native app support for Microsoft Word and other mainstream desktop apps on iPad. The current generation iPad Pros are ahead of Macbooks in terms of security. The iPad Pro (2020) paired with the Magic Keyboard is my current pick 
+
+### Pixel Book Go Chromebook
+
+ChromeOS is developed first by the open-source team behind Chromium. Google then adds in their stuff to make ChromeOS. Modern Chromebooks like the Pixel Book Go are also able to run Android Apps natively. If you're a developer, you can also run a linux shell and have access to SSH. For a in-depth view at how the Chromium team is approaching security, [read this page.](https://www.chromium.org/chromium-os/chromiumos-design-docs/security-overview)
+
+### Macbook Air
+
+ Get a new Macbook air or Macbook pro. If you're technically literate, read about [Apple's T2 security chip](https://www.apple.com/mac/docs/Apple_T2_Security_Chip_Overview.pdf). Additionally, if you think you want to get into programming or like to run shell commands this is most likely the right choice for you.
+
+
+### PC that runs Windows 10 S 🆕
+
+
+> Windows 10 in S mode is a version of Windows 10 that's streamlined for security and performance, while providing a familiar Windows experience. To increase security, it allows only apps from the Microsoft Store, and requires Microsoft Edge for safe browsing. -[Windows 10 S FAQ](https://support.microsoft.com/en-us/help/4020089/windows-10-in-s-mode-faq)
+
+For more, [visit the Windows 10 S page](https://www.microsoft.com/en-us/windows/s-mode).
+
+
+
+<p class="message">If you are a non-techie, feel free to ignore this blurb. Before fellow privacy nerds freak out, I will just say: I agree with you on principle, it would be better for all things to have source code published and code developed in an open democratic way (and copyleft or creative commons). I get it. But, the Linux kernel and distro security management (I'm looking at you Debian), are light-years behind MacOS, AOSP, or Windows. I used to believe that Linux was more secure. That was what the community told me at least. It wasn't until I started digging that I found problems. <a href="https://www.washingtonpost.com/sf/business/2015/11/05/net-of-insecurity-the-kernel-of-the-argument/?noredirect=on">This piece in the Washington Post details the issue pretty well.</a> I don't believe you can have privacy (one of the three aspects of digital safety) without security. Voyeurs would have there way without locks on doors. Privacy can't be had without security. Secrets leak without proper security management.
 </p>
-
-
-> If you really must have a recommendation that's suitable for regular people, then get either a Chromebook or a Macbook and use the standard OS with the security features intact.
 
 > In general, the assumption that open source software is any more secure or even private in practice is totally wrong and not based on reality.
 
 > -Daniel Micay
 
 
+<center>
+
+
+## <i id="privacy"></i> Why should I care about privacy? I don't have anything to hide.
+
 </center>
-
-
-
-## Why should I care about privacy? I don't have anything to hide.
 
 I found that these two quotes best sum up the issue:
 
@@ -628,90 +654,25 @@ For more:
 - Read Professor [Daniel Solove's paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=998565)
 - Browse the [Wikipedia article](https://en.wikipedia.org/wiki/Nothing_to_hide_argument) about this issue.
 
-<br>
-<br>
-
----
-
-
-
-
-
-
 <center>
 
-# <i class="fas fa-laptop" id="nextlevel"></i> Next Level Steps. Finished with the steps above? Here are some more steps you can take.
+## <i id="vpn"></i> Should I use a VPN?
 
 </center>
 
-## <i class="far fa-envelope" id="email"></i> Change your email
+You can use a commercial VPN if you want, but remember: "A VPN is an ISP"
 
-Email is fundamentally an insecure protocol, you should use Signal or Wire to keep your conversations safe.
-
-> Encrypting email is asking for a calamity. Recommending email encryption to at-risk users is malpractice. Anyone who tells you it’s secure to communicate over PGP-encrypted email is putting their weird preferences ahead of your safety.
-
-> -[Latacora](https://latacora.micro.blog/2019/07/16/the-pgp-problem.html#)
-
-That being said, the following four email providers have shown dedication to keeping your information safe. This will not "secure your email", but it is safer than using gmail or most other popular services, since their business models aren't based on advertising. Pick one and make the migration from less friendly services.
+Privacy and anonymity researcher Sarah Jamie Lewis points out that using a virtual private network (VPN) doesn't keep you anonymous. Rather, you're taking the burden of potential surveillance and moving it from your current Internet service provider (ISP) and moving it to another by using a VPN. This doesn't mean "don't use a VPN". It means treat your VPN just like an ISP. If you need anonymity, use the tor browser.
 
 <center>
+<a href="https://mobile.twitter.com/SarahJamieLewis/status/871713517317042176"><img src="img/srah.png" alt="sarahjamielewis"></a>
 
 
-<a href="https://posteo.de/en"><img src="/img/Posteo.png" alt="posteo"></a> 
-
-Cost: 12 € per year
-
----
-
-<a href="https://protonmail.com/"><img src="/img/ProtonMail.png" alt="protonmail"></a>
-
-Free
-
----
-
-<a href="https://tutanota.com/"><img src="/img/Tutanota.png" alt="tutanota"></a>
-
-Free
-
----
-
-<a href="https://mailbox.org/en/"><img src="/img/mailbox.png" alt="mailbox"></a> 
-
-Cost: 12 € per year
 
 
+## <i id="router"></i> What kind of router should I get?
 
 </center>
- 
-
-<br>
-<br>
-
-
----
-
-## <i class="far fa-hdd"></i> Backup your files
-
-No one wants to lose all their data. Keeping encrypted backups on an external hard drive allows you to keep a snapshot of your system over time. If something goes wrong, you can restore to a previous time. For a cross-platform tool, check out [Duplicati](https://www.duplicati.com/).
-
-I recommend using [BorgBackup](https://www.borgbackup.org/) for MacOS and Linux.  
-A graphical app that uses Borgbackup is called [Vorta](https://vorta.borgbase.com). It makes backups simple. 
-
-
-You may want to consider keeping cloud backups. This means that you're storing your files on a company's servers (they take care of redundancy). It's recommended to use software like Cryptomator so that these companies don't have access to the contents of your files.
-
-Cloud backup providers that support zero-knowledge backups (where the provider can't see your data) by default:
-
-- https://Borgbase.com
-- https://tarsnap.com
-
-<br>
-<br>
-
----
-
-
-## <i class="fas fa-dragon"></i> Upgrade and protect your home network
 
 Most consumer routers are horribly outdated and riddled with bugs. In 2018, the U.S. government [advised that U.S. citizens reset their routers](https://www.nytimes.com/2018/05/27/technology/router-fbi-reboot-malware.html) since the Russian government attacked and successfully subverted hundreds-of-thousands of routers throughout the world. Most consumer routers never get updated. These are actually small computers that need regular updates to patch for security issues or bugs.
 
@@ -727,110 +688,58 @@ Most consumer routers are horribly outdated and riddled with bugs. In 2018, the 
 In addition to the router, you'll need a wireless access point for WiFi. Pick up [a wireless access point, like one made by Ubiquiti](https://www.ui.com/unifi/unifi-ap-ac-lite/) and you should be set.
 
 
-
-<br>
-<br>
-
----
-
-## <i class="fas fa-dumpster-fire"></i> Leave Social Media Behind
-
-Vox [released a video entitled "Why every social media site is a dumpster fire"](https://www.youtube.com/watch?v=wZSRxfHMr5s). The video explains how social media sites are very good at increasing tribalism and minimizing good conversation.
-
----
-
-Cal Newport, professor of computer science at Georgetown University recommends [digital minimalism](http://www.calnewport.com/blog/2016/12/18/on-digital-minimalism/) as the antidote to the scourge of social media on our attention.
-
-> There's this sense right now out there in the culture where people say, "Okay, wait a second. Who ever said that the right way to use a smartphone is I have to look at it all the time? When did I sign up for that? When did I think like, 'You know what I really need to do is look at this little screen three to four hours a day'?" No one signed up for that, and they're waking up one day and realizing they're doing it. These companies have gone too far and gotten too good into making that into an addictive experience... 
-
-> -Cal Newport on the [brainfluence podcast](https://www.rogerdooley.com/cal-newport-minimalism/)
-
----
-
-The popular Youtube channel Yes Theory [released a video](https://www.youtube.com/watch?v=TA5Ilzauebo) detailing how 30 days without social media helped their focus.
-
----
-
-Roger McNamee, one-time advisor to Mark Zuckerberg and author of the book *Zucked: Waking Up to the Facebook Catastrophe* brought to our attention how there are no rules in the current system to protect our digital safety: 
-
-
-> Consumers feed the machine because of the convenience it provides. But we, the people, have little say in this new data economy. We are merely the subject, and, increasingly, the victims of it.
-
-> There are few rules in this country when it comes to the gathering or use of data. Important questions need to be asked. Why, for example, is it legal to sell or trade data about our credit card purchases, our personal health, geolocation, or Internet activity?
-
-> Why is it legal for smart devices to listen in on us in our bedrooms and offices? Why is it legal to collect any data at all about minors? Why do data companies generally bear no liability when they take or use our data without permission? 
-
-> -Roger McNamee, [PBS Newshour](https://www.pbs.org/newshour/show/the-dangers-of-our-new-data-economy-and-how-to-avoid-them)
-
----
-
-Edward Snowden, the whistle-blower and former NSA contractor stated that:
-
-> Businesses that make money by collecting and selling detailed records of private lives were once plainly described as "surveillance companies." Their rebranding as "social media" is the most successful deception since the Department of War became the Department of Defense.
-
->-@Snowden, [2018.03.17](https://twitter.com/Snowden/status/975147858096742405?ref_src=twsrc%5Etfw)
-
----
-
-Social media can:
-
-- Take away meaningful connections
-- Waste time
-- Use you as a product
-- Aide government surveillance
-- Make you feel like you are missing out, when you're not
-
-Using optional online activity in an intentional and minimalist way can:
-
-- Be empowering
-- Create true connection
-- Allow time for focus
-- Inspire mindfulness
-
-<br>
-<br>
-
----
-
-## <i class="fab fa-usb"></i> Carry a second-factor token with you
-
-
-
-> "When it comes to online security, confusion about the risks can lead people to obsess over obscure threats while ignoring key innovations that could truly protect them. Even highly-targeted users like politicians and activists don’t fully appreciate the scourge of phishing, and many aren’t familiar with an emerging form of two-factor authentication known as “Security Keys” that we hope can stop it in its tracks ... phishing is the silent killer, and relying on a password alone is a recipe for disaster. Two-factor authentication (even with a code delivered by SMS) is still way better than the alternative, but if you’re an at-risk user — like a political figure, celebrity, activist, or journalist — please consider FIDO Security Keys for all your sensitive accounts. Anything less would be uncivilized. 🔐" -Mark Risher's [*Phishing and Security Keys*](https://medium.com/@mrisher_2499/phishing-and-security-keys-b5c8e8e26931)
-
 <center>
 
-
-### Trezor
-
-<a href="https://trezor.io/"><img src="/img/trezor.jpg" height="200" alt="Trezor"></a>
-
-### Yubikey
-
-<a href="https://www.yubico.com/product/yubikey-5-nfc/#yubikey-5-nfc"><img src="/img/yubikey.jpg" height="200" alt="yubikey"></a>
-
-### Onlykey
-
-<a href="https://onlykey.io/"><img src="/img/onlykey.jpg" height="200" alt="Onlykey"></a>
+## <i id="protest"></i> How do I securely attend a peaceful protests?  🆕
 
 </center>
 
-<br>
-<br>
-
----
-
-
-## <i class="fas fa-network-wired"></i>  You can use a commercial VPN if you want, but remember: "A VPN is an ISP"
-
-Privacy and anonymity researcher Sarah Jamie Lewis points out that using a virtual private network (VPN) doesn't keep you anonymous. Rather, you're taking the burden of potential surveillance and moving it from your current Internet service provider (ISP) and moving it to another by using a VPN. This doesn't mean "don't use a VPN". It means treat your VPN just like an ISP.
-
-<center>
-<a href="https://mobile.twitter.com/SarahJamieLewis/status/871713517317042176"><img src="img/srah.png" alt="sarahjamielewis"></a>
+<img src="img/IMG_1396.png">
 
 </center>
 
-## For more tools, head over to [privacytools.io](https://privacytools.io).
+### Disable biometrics temporarily
+
+You'll want to temporarily disable unlocking your mobile device with a fingerprint or face. This will instead require you to enter password the next time you need to unlock your device. Remember that you don't need to unlock your device to use the camera. To do this:
+
+
+#### On iOS
+
+
+> [Press and hold the side button and either volume button for 2 seconds.](https://support.apple.com/guide/iphone/set-up-face-id-iph6d162927a/ios)
+
+> After the sliders appear, press the side button to immediately lock iPhone.
+
+> iPhone locks automatically if you don’t touch the screen for a minute or so.
+
+> The next time you unlock iPhone with your passcode, Face ID is enabled again.
+
+
+#### On Android devices
+
+Open the settings and search for "lockdown" and enable the toggle. The option for lockdown mode will then show up when you hold down the power button from the main menu of your phone or the lock screen.
+
+
+### Always film encounters with law enforcement
+
+Smartphones [have been instrumental](https://www.youtube.com/watch?v=-FEGcJeGeBg) in exposing police brutality and corruption. [You have the right to film police in the United States](https://www.eff.org/deeplinks/2020/06/you-have-first-amendment-right-record-police). 
+
+### 10 Rules for Dealing with Police
+
+[Useful video presenting possibly life-saving and rights-preserving rules for peacefully interacting with law enforcement.](https://www.youtube.com/watch?v=s4nQ_mFJV4I) 
+
+
+### Black Lives Matter
+
+Resources I've found helpful:
+
+</center>
+
+- 13th on Netflix ([free on YouTube](https://www.youtube.com/watch?v=krfcq5pF8u8))
+- [John Oliver's Segment](https://www.youtube.com/watch?v=Wf4cea5oObY)
+- [Washington Post Article](https://www.washingtonpost.com/graphics/2020/opinions/systemic-racism-police-evidence-criminal-justice-system/) on the evidence for systemic racism
+- ["How to be an Anti-Racist"](https://www.amazon.com/How-Be-Antiracist-Ibram-Kendi-ebook/dp/B07D2364N5/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1594270592&sr=8-1)
+- ["When They See Us"](https://www.netflix.com/title/80200549) on Netflix
 
 <br>
 <br>
@@ -840,27 +749,34 @@ Privacy and anonymity researcher Sarah Jamie Lewis points out that using a virtu
 
 # <i class="fas fa-list-ol" id="summary"></i> Summary
 
-1. Use a Chromium based browser for most tasks (Chrome, Brave, Bromite)
-2. Use Signal for communication
-3. Use Dice based passphrases
-4. Use a password manager
-5. Use two-factor authentication
-6. Sign up for haveibeenpwned
-7. Educate yourself on how to spot phishing and best daily practices
-8. Use Syncthing to keep your data in sync
-9. Turn on auto-updates
-10. Keep a passcode on your phone
-11. Stay informed, sign up for updates from the This Week in Security newsletter and the EFF
-12. Use other tools like Tor browser, Wire and veracrypt depending on your needs
-13. Phone: get a pixel or iPhone
-14. Computer: get a Macbook, Chromebook, or Qubes capable laptop
-15. Privacy is important
-16. Email: it's an insecure protocol, but Posteo, Tutanota, Protonmail, and Mailbox.org are a bit better than others
-17. Use Borg and Vorta to backup your devices. Perhaps use borgbase or Tarsnap.
-18. Get a PFsense router for your home network
-19. Social media is a dumpster fire; leave it.
-20. Carry a second factor token (Yubikey, Trezor, Onlykey)
-21. VPNs aren't really privacy friendly. Tor is better for private activities.
+[ ↑ Back to the top](/)
+
+Steps:
+
+1. [Use Chrome or Safari for your browser](/#browser)
+2. [Block most ads and trackers with nextdns or adguardDNS](/#ads)
+3. [Communicate securely with Signal Messenger](/#signal)
+4. [Use password manager like Bitwarden with a strong passphrase](/#passwords)
+5. [Get a Yubikey security key and turn on 2-factor-authentication for your accounts](/#2fa)
+6. [Get alerted to accounts that are compromised in a data breach by signing up for haveibeenpwned](/#haveibeenpwned)
+7. [Email isn't private, but it can be secure if you use gmail with the advanced protection program](/#email)
+8. [Maintain a security mindset and avoid common scams and phishing](/#mindset)
+9. [“Consider each piece of data you create and what would happen if you lost it, or if it leaked to the public at large. Make backups accordingly.” -Security Researcher Alec Muffett](/#backup)
+10. [Turn on auto updates for your systems and apps](/#update)
+11. [“Stop using, even erase, delete or destroy, any software or devices which are past their end-of-life, end-of-support, or for which you can no longer obtain software updates. Make sure to save any data that you want or need.” -Security Researcher Alec Muffett](/#eol)
+12. [Passcode lock your devices; turn on encryption](/#lockitdown)
+13. [Keep yourself informed](/#informed)
+14. [There may be other tools that can keep yourself: here are a few](/#othertools)
+
+
+FAQ
+
+1. [What kind of phone should I get?](/#phone)
+2. [What kind of computer should I get?](/#computer)
+3. [Why should I care about privacy? I don’t have anything to hide.](/#privacy)
+4. [Should I use a VPN?](/#vpn)
+5. [What kind of router should I get?](/#router)
+6. [How do I securely attend a peaceful protests?](/#protest)
 
 ---
 
@@ -872,7 +788,6 @@ This site was aimed at the layperson and was intended to get privacy-security pr
 - [Tails](https://tails.boum.org/)
 - [One-time Pad Encryption](https://en.wikipedia.org/wiki/One-time_pad)
 - [Dulle's Rules of Tradecraft](https://grugq.github.io/resources/Dulles%20on%20Tradecraft.pdf) and the [Moscow Rules](https://en.wikipedia.org/wiki/The_Moscow_rules)
-- [Auditor App](https://play.google.com/store/apps/details?id=app.attestation.auditor&hl=en_US) by Daniel Micay
 - [GrapheneOS](https://grapheneos.org/)
 
 

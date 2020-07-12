@@ -199,21 +199,20 @@
 
 <h2 id="desktop">Desktop</h2>
 
-<p><a href="https://chrome.com"><img src="/img/chrome.svg" alt="Chrome" height="100" align="center"></a><a href="https://brave.com"><img src="/img/brave.svg" alt="Brave" height="100" align="center"></a></p>
+<p><a href="https://chrome.com"><img src="/img/chrome.svg" alt="Chrome" height="100" align="center"></a></p>
 
-<p>Use Chrome or Brave on your computer with the following extensions:</p>
+<p>Use Chrome on your computer with the following extensions:</p>
 
 <p><a href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm">Ublock Origin</a><br />
 <a href="https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp">HTTPS Everywhere</a><br />
-<a href="https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp">Privacy Badger</a><br />
 <a href="https://chrome.google.com/webstore/detail/cookie-autodelete/fhcgjolkccmbidfldomjliifgaodjagh">Cookie Autodelete</a><br />
 <a href="https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb">Bitwarden</a></p>
 
+<p>Safari on MacOS is also suitable, if it better fits your needs, but Chrome will be a better fit for most people.</p>
+
 <h2 id="mobile">Mobile</h2>
 
-<p><a href="https://brave.com"><img src="/img/brave.svg" alt="Brave" height="100" align="center"></a><a href="https://bromite.org"><img src="/img/bromite.png" alt="Bromite" height="100" align="center"></a></p>
-
-<p>Use Brave (iOS/Android) or Bromite (Android) on mobile.</p>
+<p>Use Safari or Chrome on iOS/iPadOS and Chrome on Android.</p>
 
 <h2 id="i-class-fas-fa-clipboard-check-i-browser-setup"><i class="fas fa-clipboard-check"></i> Browser setup</h2>
 
@@ -223,9 +222,28 @@
 
 <p>Uncheck &ldquo;allow Chrome sign-in&rdquo; in Chrome&rsquo;s settings</p>
 
-<p>Disable Brave Rewards in Brave&rsquo;s settings</p>
-
 <p class="message">If you have an objection for whatever reason to using a Chromium based browser, you can use Firefox with the extensions listed above, but know that it has much less protection against exploits and security hardening.</p>
+
+<p><br>
+<br></p>
+
+<hr />
+
+<h1 id="i-class-fas-fa-shield-alt-i-block-ads-and-trackers"><i class="fas fa-shield-alt"></i>  Block Ads and Trackers</h1>
+
+<p><a href="https://adguard.com/en/adguard-dns/overview.html">AdguardDNS</a> and <a href="https://nextdns.io/">NextDNS</a> are services that keep you safer and reduce instrusive ads.</p>
+
+<h2 id="android">Android</h2>
+
+<p>On Android, you&rsquo;ll want to go to settings and search for: Private DNS. Add <code>dns.adguard.com</code> to the &ldquo;Private DNS provider hostname&rdquo; field. Switch into and out of airplane mode. That&rsquo;s it! you&rsquo;re successfully blocking ads everywhere you go. You can use NextDNS instead if you&rsquo;d like.</p>
+
+<h2 id="ios-ipados">iOS/iPadOS</h2>
+
+<p>Native DNS is coming to iOS/iPadOS 14, but until then you&rsquo;ll want to use the <a href="https://apps.apple.com/us/app/nextdns/id1463342498">NextDNS app</a>.</p>
+
+<h2 id="all-other-systems-mac-windows-chromeos-etc">All other systems (Mac, Windows, ChromeOS, etc.)</h2>
+
+<p>Go to <a href="https://nextdns.io/">https://nextdns.io/</a> for setup instructions.</p>
 
 <p><br>
 <br></p>
@@ -334,8 +352,8 @@
 </tr>
 
 <tr>
-<td>Specialized device like a Yubikey, Onlykey, or Trezor</td>
-<td>Press a button on the device or tap the device to your phone (see <a href="#nextlevel">next level steps</a>).</td>
+<td>A security key such as a Yubikey</td>
+<td>Press a button on the device or tap the device to your phone.</td>
 </tr>
 </tbody>
 </table>
@@ -344,37 +362,64 @@
 
 <p></center></p>
 
-<p>Prefer apps and specialized devices over text message authentication. However, text message based 2FA is better than not having any at all.</p>
-
-<p>Go to <a href="https://twofactorauth.org/">https://twofactorauth.org/</a> to see some sites that support 2FA. Most banks, social media networks, and email providers have 2FA.</p>
+<p>Prefer security keys over apps, prefer apps over text message authentication. Text message based 2FA is better than not having any at all.</p>
 
 <p class="message"><i class="fas fa-exclamation-triangle"></i> Note that security questions don't count as a second-factor. Security questions are very easy to guess or find out about a person, and are extremely risky to use in place of the above  methods. If you must use a security question, I recommend using a random string of characters as the answer to the question. Then save it in your password manager.</p> 
 
 <p><center></p>
 
-<p><br></p>
+<h2 id="security-keys">Security Keys</h2>
 
-<h2 id="andotp-for-android">andOTP for Android</h2>
+<p></center></p>
 
-<p><a href="https://play.google.com/store/apps/details?id=org.shadowice.flocke.andotp"><img src="/img/andotp.svg" height="200" alt="andOTP"></a>
+<blockquote>
+<p>“Even highly-targeted users like politicians and activists don’t fully appreciate the scourge of phishing, and many aren’t familiar with an emerging form of two-factor authentication known as “Security Keys” that we hope can stop it in its tracks … phishing is the silent killer, and relying on a password alone is a recipe for disaster. 🔐” -Mark Risher’s Phishing and Security Keys</p>
+</blockquote>
+
+<p>Security keys are the future of authentication. App based or text-message based codes are now considered to be legacy authentication. We are moving to an era when security keys are the main path to both authentication and passwordless systems. A few larger services such as Google, Microsoft, Dropbox, Github, Facebook, and Twitter currently support security keys.  <a href="https://www.dongleauth.info/">Dongleauth</a> is a site that shows what current services work with security keys.</p>
+
+<p><center></p>
+
+<p><a href="https://www.yubico.com/product/yubikey-5-nfc/#yubikey-5-nfc"><img src="/img/yubikey.jpg" height="200" alt="yubikey"></a></p>
+
+<p></center></p>
+
+<p>The security key I currently recommend is the Yubikey.</p>
+
+<p>There are variety of types to fit your needs. Most likely you&rsquo;ll want the Yubikey 5 series which supports the newest standards.</p>
+
+<p>You&rsquo;ll want two of them (one is a backup).</p>
+
+<p><center></p>
+
+<h2 id="2fa-apps">2FA Apps</h2>
+
+<h3 id="aegis-for-android">Aegis for Android</h3>
+
+<p><a href="https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis"><img src="/img/aegis.png" height="100" alt="aegis"></a>
 <br>
 </center></p>
 
-<p class="message"><i class="fas fa-exclamation-triangle"></i> Important—andOTP has the ability to backup security keys to wherever you would like. It is highly recommended to keep consistent and encrypted backups of your 2FA keys.</p>
+<p class="message"><i class="fas fa-exclamation-triangle"></i> Important—Aegis has the ability to backup security keys to wherever you would like. It is highly recommended to keep consistent and encrypted backups of your 2FA keys.</p>
 
 <p><br>
 <center></p>
 
-<h2 id="tofu-for-ios">Tofu for iOS</h2>
+<h3 id="tofu-for-ios">Tofu for iOS</h3>
 
-<p><a href="https://itunes.apple.com/app/tofu-authenticator/id1082229305"><img src="/img/tofu.svg" height="200" alt="Tofu"></a>
+<p><a href="https://itunes.apple.com/app/tofu-authenticator/id1082229305"><img src="/img/tofu.svg" height="100" alt="Tofu"></a>
 <br>
 </center></p>
 
 <p class="message"><i class="fas fa-exclamation-triangle"></i> Important—2FA keys are stored on your iPhone's secure keychain, so only iTunes/iCloud encrypted backups will include a backup to these keys. If you're restoring your device from an iTunes/iCloud backup, the app and all keys will be restored as well.</p>
 
-<p><center>
-<br>
+<p><center></p>
+
+<p>Go to <a href="https://twofactorauth.org/">https://twofactorauth.org/</a> to see some sites that support app based 2FA. Most banks, social media networks, and email providers have 2FA.</p>
+
+<p><br></p>
+
+<p><br>
 <br></p>
 
 <hr />
@@ -394,7 +439,36 @@
 
 <hr />
 
-<h1 id="i-class-fas-fa-skull-crossbones-id-phishing-i-phishing-scams-remote-access-behaviors"><i class="fas fa-skull-crossbones" id="phishing"></i> Phishing, scams, remote access, behaviors</h1>
+<h1 id="i-class-far-fa-envelope-id-email-i-a-note-on-email"><i class="far fa-envelope" id="email"></i> A Note on Email.</h1>
+
+<p></center></p>
+
+<p>Email is fundamentally a non-private protocol, you should use Signal Messenger to keep your conversations private.</p>
+
+<blockquote>
+<p>Encrypting email is asking for a calamity. Recommending email encryption to at-risk users is malpractice. Anyone who tells you it’s secure to communicate over PGP-encrypted email is putting their weird preferences ahead of your safety.</p>
+
+<p>-<a href="https://latacora.micro.blog/2019/07/16/the-pgp-problem.html#">Latacora</a></p>
+</blockquote>
+
+<p>This is not to say that email is insecure. Security and privacy are facets of digital safety rather than a simple binary decision. This is why I advocate that <strong>most people should use Gmail and activate Google&rsquo;s <a href="https://landing.google.com/advancedprotection/">Advanced Protection Program</a>.</strong> Email security is important. We sign up for most accounts with an email address which means that all reset-password-links are sent to that email address. If someone has access to your email or successfully phishes your email, it could be game over for the rest of your accounts. As far as mainstream email providers go, Google has by far the best security with its Advanced Protection Program.</p>
+
+<p>If you object to using Google&rsquo;s services, <a href="https://tutanota.com">Tutanota</a> supports using security keys and may be a reasonable alternative.</p>
+
+<h2 id="and-what-about-phishing">And what about phishing?</h2>
+
+<blockquote>
+<p>&ldquo;Phishing is when a scammer uses fraudulent emails or texts, or copycat websites to get you to share valuable personal information – such as account numbers, Social Security numbers, or your login IDs and passwords. Scammers use your information to steal your money or your identity or both. Scammers also use phishing emails to get access to your computer or network then they install programs like ransomware that can lock you out of important files on your computer. Phishing scammers lure their targets into a false sense of security by spoofing the familiar, trusted logos of established, legitimate companies. Or they pretend to be a friend or family member.&rdquo; -<a href="https://www.consumer.ftc.gov/articles/0003-phishing">Federal Trade Commission</a></p>
+</blockquote>
+
+<p>For more on phishing, check out <a href="https://theintercept.com/2017/11/19/how-to-protect-yourself-against-spearphishing-a-comic-explanation/">this comic</a> from <em>The Intercept</em>.</p>
+
+<p><br>
+<br></p>
+
+<hr />
+
+<h1 id="i-class-fas-fa-skull-crossbones-id-phishing-i-scams-remote-access-behaviors"><i class="fas fa-skull-crossbones" id="phishing"></i> Scams, remote access, behaviors</h1>
 
 <p></center></p>
 
@@ -402,114 +476,54 @@
 
 <ul>
 <li>If it sounds too good to be true, it usually is.</li>
-<li>Verify that you are <a href="https://www.howtogeek.com/181767/htg-explains-what-is-https-and-why-should-i-care/">seeing &ldquo;https&rdquo; when visiting websites</a>.</li>
 <li>Don&rsquo;t click on links in emails you don&rsquo;t know.</li>
 <li>Don&rsquo;t open or download files from a source you don&rsquo;t know.</li>
 <li><a href="https://www.youtube.com/watch?v=0y5z0kWgBcM">If it&rsquo;s a supposed government agency, they will get a hold of by official means (the IRS will never call you, they will send you postal mail)</a>.</li>
 <li>Don&rsquo;t be fooled by visual similarities, always verify who is contacting you.</li>
 <li><a href="https://support.mozilla.org/en-US/kb/what-does-your-connection-is-not-secure-mean">Pay attention to browser alerts and security exceptions</a>.</li>
-<li><a href="https://www.schneier.com/blog/archives/2016/04/security_risks_11.html">Be very careful of shortened links</a>.</li>
-</ul>
-
-<p><center></p>
-
-<p><img src="/img/phonecall.jpg" height="200" alt="phonecall"></p>
-
-<h2 id="inspect-emails-carefully">Inspect emails carefully</h2>
-
-<p></center></p>
-
-<blockquote>
-<p>&ldquo;Phishing is when a scammer uses fraudulent emails or texts, or copycat websites to get you to share valuable personal information – such as account numbers, Social Security numbers, or your login IDs and passwords. Scammers use your information to steal your money or your identity or both. Scammers also use phishing emails to get access to your computer or network then they install programs like ransomware that can lock you out of important files on your computer. Phishing scammers lure their targets into a false sense of security by spoofing the familiar, trusted logos of established, legitimate companies. Or they pretend to be a friend or family member.&rdquo; -<a href="https://www.consumer.ftc.gov/articles/0003-phishing">Federal Trade Commission</a></p>
-</blockquote>
-
-<p><center></p>
-
-<p><br></p>
-
-<h2 id="don-t-trust-verify">Don&rsquo;t trust; verify.</h2>
-
-<p></center></p>
-
-<p>It&rsquo;s relatively easy to trust what people say. When it comes to your personal information remember the above maxim. Verify who people are and what they are doing is essential when dealing with tech support, financial institutions, or businesses. This process helps you avoid <a href="https://www.us-cert.gov/ncas/tips/ST04-014">social engineering</a>. In general, don&rsquo;t allow people to remote access your computer unless your business-place has this setup to begin with.</p>
-
-<p><center></p>
-
-<p><br></p>
-
-<h2 id="keep-it-secret-keep-it-safe">Keep it secret; keep it safe.</h2>
-
-<p></center></p>
-
-<p>As the wise wizard said. Corollaries to this phrase include:</p>
-
-<ul>
 <li><a href="https://en.wikipedia.org/wiki/Operations_security">&ldquo;loose-lips sink ships&rdquo;</a></li>
 <li><a href="https://www.inc.com/meredith-fineman/what-we-post-online-is-forever-and-we-need-a-reminder.html">&ldquo;The Internet is forever&rdquo;</a></li>
 <li><a href="https://www.youtube.com/watch?v=YEiu7uYCfPE">&ldquo;On a need-to-know basis&rdquo;</a></li>
 </ul>
 
+<p>Verify who people are and what they are doing is essential when dealing with tech support, financial institutions, or businesses. This process helps you avoid <a href="https://www.us-cert.gov/ncas/tips/ST04-014">social engineering</a>. In general, don&rsquo;t allow people to remote access your computer unless your business-place has this setup to begin with.</p>
+
 <p class="message"><i class="fas fa-exclamation-triangle"></i> Additionally, avoid using "smart" appliances or home assistants (Amazon's Alexa, Google Home, etc.). These are set up to listen in constantly, using the information from your everyday life as a means for profit.</p>
 
-<p>For more on phishing, check out <a href="https://theintercept.com/2017/11/19/how-to-protect-yourself-against-spearphishing-a-comic-explanation/">this comic</a> from <em>The Intercept</em>.</p>
-
-<p><center></p>
-
-<h2 id="healthy-behaviors">Healthy behaviors</h2>
-
-<p></center></p>
-
-<p>Security Researcher Alec Muffett created <a href="https://medium.com/@alecmuffett/your-cyber-5-a-day-1f9fa1cb3067">&ldquo;Your Cyber-5-A-Day&rdquo;</a> which I think sums up a lot of behavioral ways we can create digital safety:</p>
-
-<blockquote>
-<p>In an attempt to encapsulate good security practice in just five rules that you should practice daily, as part of your “business as usual”, I would propose the following —but be aware that this is not an exhaustive list of security practices, it’s just my top five “healthy behaviours” for home or business:</p>
+<p>Security Researcher Alec Muffett <a href="https://medium.com/@alecmuffett/your-cyber-5-a-day-1f9fa1cb3067">&ldquo;Your Cyber-5-A-Day&rdquo;</a></p>
 
 <ol>
-<li>Install all software updates and patches promptly; if you use anti-malware software, then update it promptly, too.<br /></li>
-<li>Stop using, even erase, delete or destroy, any software or devices which are past their end-of-life, end-of-support, or for which you can no longer obtain software updates. Make sure to save any data that you want or need.<br /></li>
-<li>Use, and promote use of, different passwords for every site and app that relies upon passwords; using password management software may help.<br /></li>
-<li>Consider each piece of data you create and what would happen if you lost it, or if it leaked to the public at large. Make backups accordingly.<br /></li>
-<li>Review your security settings — iOS, Android, Facebook, Gmail, Linux, MySQL, VCL, Junos — check out what’s publicly visible and who and how can access your account or system. Keep it tidy.
-<center>
-<br>
-<br></li>
+<li>Stop using, even erase, delete or destroy, any software or devices which are past their end-of-life, end-of-support, or for which you can no longer obtain software updates. Make sure to save any data that you want or need.<br />
+4.</li>
 </ol>
-</blockquote>
-
-<hr />
-
-<h1 id="i-class-fas-fa-cloud-upload-alt-id-cloud-i-be-your-own-cloud"><i class="fas fa-cloud-upload-alt" id="cloud"></i> Be your own cloud</h1>
-
-<p></center></p>
-
-<p>Usually, a cloud is comprised of a specific company&rsquo;s servers. Servers are just computers and storage devices that are accessible over a network. In this case, when you access something on Apple&rsquo;s cloud, Dropbox, Google drive, etc., your device is actually logging onto that company&rsquo;s server and accessing from there. This solves a great many problems, but it creates a few weighty ones too. The weightiest is that your personal data exists on a device controlled by companies that want to make money off of you.</p>
-
-<p><br></p>
-
-<p><center></p>
-
-<h2 id="syncthing">Syncthing</h2>
-
-<p><a href="https://syncthing.net"><img src="/img/syncthing.svg" height="200" alt="syncthing"></a></p>
-
-<p></center></p>
-
-<p>Syncthing allows you to sync folders and files to each of your devices and work collaboratively with others. You could sync your photos in a family folder, edit files for a collaborative project, or keep the photos on your phone backed up to your main computer. This tool currently works with Android, MacOS, Windows, and Linux. An iOS version does not currently exist. If you need a cloud tool that works with iOS, check out Cryptomator below.</p>
-
-<p><br></p>
-
-<p><center></p>
-
-<h2 id="cryptomator">Cryptomator</h2>
-
-<p><a href="https://cryptomator.org"><img src="/img/cryptomator.png" height="200" alt="cryptomator"></a></p>
-
-<p></center></p>
-
-<p>Cryptomator is a tool that works with current cloud providers (Google Drive, iCloud, Dropbox, and more). The main benefit is that your data stays yours&mdash;those companies aren&rsquo;t able to access your data since it&rsquo;s encrypted. It works on all the major platforms.</p>
 
 <p><center>
 <br>
+<br></p>
+
+<hr />
+
+<h1 id="i-class-fas-fa-cloud-upload-alt-id-cloud-i-consider-each-piece-of-data-you-create-and-what-would-happen-if-you-lost-it-or-if-it-leaked-to-the-public-at-large-make-backups-accordingly"><i class="fas fa-cloud-upload-alt" id="cloud"></i>  &ldquo;Consider each piece of data you create and what would happen if you lost it, or if it leaked to the public at large. Make backups accordingly.&rdquo;</h1>
+
+<p></center></p>
+
+<p>Usually, a cloud is comprised of a specific company&rsquo;s servers. Servers are just computers and storage devices that are accessible over a network. In this case, when you access something on Apple&rsquo;s cloud, Dropbox, Google drive, etc., your device is actually logging onto that company&rsquo;s server and accessing from there. This solves a great many problems, but it creates a few weighty ones too. The weightiest is that your personal data exists on a device controlled by companies and not by you. Storing your data in the cloud may be fine for you however. The cloud is not a bad place to store some types of data. It depends on what you want to do and who you trust. Apple seems fairly reasonable and iCloud may very well be a good resource for storing family photos. However, as I said, this is all about who you trust. New solutions are in development to keep data secure in a zero-knowledge way (where the cloud provider can&rsquo;t see your data even if they wanted to). You may also want to use a tool like <a href="https://syncthing.net">Syncthing</a> to sync folders and files on your own terms. If you want to use tools like Google Drive or Dropbox: that&rsquo;s fine, just remember that someone else has access to that information.</p>
+
+<p>No one wants to lose all their data. Keeping encrypted backups on an external hard drive allows you to keep a snapshot of your system over time. If something goes wrong, you can restore to a previous time. For a cross-platform tool, check out <a href="https://www.duplicati.com/">Duplicati</a>.</p>
+
+<p>I recommend using <a href="https://www.borgbackup.org/">BorgBackup</a> for MacOS and Linux.<br />
+A graphical app that uses Borgbackup is called <a href="https://vorta.borgbase.com">Vorta</a>. It makes backups simple.</p>
+
+<p>You may want to consider keeping cloud backups. This means that you&rsquo;re storing your files on a company&rsquo;s servers (they take care of redundancy). It&rsquo;s recommended to use software like Cryptomator so that these companies don&rsquo;t have access to the contents of your files.</p>
+
+<p>Cloud backup providers that support zero-knowledge backups (where the provider can&rsquo;t see your data) by default:</p>
+
+<ul>
+<li><a href="https://Borgbase.com">https://Borgbase.com</a></li>
+<li><a href="https://tarsnap.com">https://tarsnap.com</a></li>
+</ul>
+
+<p><br>
 <br></p>
 
 <hr />
@@ -724,15 +738,23 @@ It depends on what Linux distribution you have and how it have it configured. If
 
 <p><br></p>
 
-<h2 id="desktop-encrypt-files-or-disks-with-veracrypt">Desktop: Encrypt files or disks with Veracrypt</h2>
+<h2 id="mobile-verification-apps">Mobile Verification Apps</h2>
 
 <p></center></p>
 
-<p>Veracrypt allows one to keep files in a secure container or encrypt whole disks.</p>
+<h3 id="android-auditor-app">Android: Auditor App</h3>
+
+<blockquote>
+<p>The Auditor app uses hardware-based security features to validate the identity of a device along with authenticity and integrity of the operating system. It will verify that the device is running the stock operating system with the bootloader locked and that no tampering with the operating system has occurred. A downgrade to a previous version will also be detected. It builds upon the hardware-based verification of the operating system by chaining verification to the app to perform software-based sanity checks and gather additional information about device state and configuration beyond what the hardware can attest to directly.</p>
+</blockquote>
+
+<h3 id="ios-iverify">iOS: iVerify.</h3>
+
+<blockquote>
+<p>iVerify is your personal security toolkit. Use iVerify to manage the security of your iOS device and detect modifications to your smartphone. iVerify makes it easy to manage the security of your accounts and online presence with simple instructional guides.</p>
+</blockquote>
 
 <p><center></p>
-
-<p><a href="https://www.veracrypt.fr/en/Home.html"><img src="/img/veracrypt.png" height="100" alt="veracrypt"></a></p>
 
 <p><br></p>
 
@@ -764,27 +786,25 @@ It depends on what Linux distribution you have and how it have it configured. If
 
 <h2 id="what-kind-of-phone-should-i-get">What kind of phone should I get?</h2>
 
-<p>The best option you can have in your hand right now is a Pixel or an iPhone  <a href="https://www.reddit.com/r/GrapheneOS/comments/bddq5u/os_security_ios_vs_grapheneos_vs_stock_android/ekxifpa?utm_source=share&amp;utm_medium=web2x">according to Daniel Micay</a>, who is a <a href="https://twitter.com/Snowden/status/1047618052089696257">prominent mobile security developer</a>.</p>
+<p>The best option you can have in your hand right now is an Apple iPhone or a current generation Google Pixel with the security features intact  <a href="https://www.reddit.com/r/GrapheneOS/comments/bddq5u/os_security_ios_vs_grapheneos_vs_stock_android/ekxifpa?utm_source=share&amp;utm_medium=web2x">according to security researcher Daniel Micay</a>.</p>
 
 <h2 id="what-kind-of-computer-should-i-get">What kind of computer should I get?</h2>
 
-<p>Get a computer that can run MacOS, ChromeOS, or QubesOS.</p>
+<p>Choices: iPad Pro, Macbook air, Pixelbook Go Chromebook, or a PC that can run Windows 10 S.</p>
+
+<h3 id="ipad">iPad</h3>
+
+<p>Apple has gone great lengths to protect their users privacy and security. An iPad Pro paired with the Magic Keyboard is a great choice for the user who wants a solid, long-lasting, all around well-performing device. Additionally, Apple is currently in the process of switching all of their Mac lineup to the same or similar chips that are in the iPad pros. This means native app support for Microsoft Word and other mainstream desktop apps on iPad.</p>
 
 <h3 id="macbook">Macbook</h3>
 
-<p>Get a new Macbook air or Macbook pro. Apple has gone great lengths to protect their users privacy and security. This doesn&rsquo;t mean to blindly trust their claims (I still wouldn&rsquo;t use iCloud for storage without cryptomator and I would much prefer Signal over iMessage). If you&rsquo;re technically literate, read about <a href="https://www.apple.com/mac/docs/Apple_T2_Security_Chip_Overview.pdf">Apple&rsquo;s T2 security chip</a>.</p>
+<p>Get a new Macbook air or Macbook pro. If you&rsquo;re technically literate, read about <a href="https://www.apple.com/mac/docs/Apple_T2_Security_Chip_Overview.pdf">Apple&rsquo;s T2 security chip</a>. Additionally, if you think you want to get into programming or like to run shell commands this is most likely the right choice for you.</p>
 
 <h3 id="chromebook">Chromebook</h3>
 
-<p>ChromeOS is developed first by the open-source team behind Chromium. Google then adds in their stuff to make ChromeOS. Before buying, just remember Google isn&rsquo;t privacy friendly if you use their services (Gmail, Google Drive, etc.). For a in-depth view at how the Chromium team is approaching security, <a href="https://www.chromium.org/chromium-os/chromiumos-design-docs/security-overview">read this page.</a></p>
+<p>ChromeOS is developed first by the open-source team behind Chromium. Google then adds in their stuff to make ChromeOS. Before buying, you may want to consider how much you are willing to use their services (Gmail, Google Drive, etc.) as Chromebooks are in an browser-based workflow rather than an app based workflow. For a in-depth view at how the Chromium team is approaching security, <a href="https://www.chromium.org/chromium-os/chromiumos-design-docs/security-overview">read this page.</a></p>
 
-<h3 id="qubesos-on-thinkpad-x200-x220-or-x230">QubesOS on ThinkPad X200, X220, or X230</h3>
-
-<p>You can pick one of these up on Ebay for less than $400. They are <a href="https://www.reddit.com/r/thinkpad/wiki/intro">robust, easy to use, and will last a while</a>. These should work well for QubesOS. I use QubesOS on a X220, and I love it. Watch Micah Lee&rsquo;s talk on <a href="https://www.youtube.com/watch?v=f4U8YbXKwog">why qubesOS is awesome.</a></p>
-
-<h3 id="if-you-really-need-to-run-linux-fedora-is-the-least-bad-security-wise">If you really need to run Linux, Fedora is the least bad security-wise</h3>
-
-<p>Thinkpad X220 or X230 should run what you need for Fedora.</p>
+<h3 id="windows-10-s">Windows 10 S</h3>
 
 <p><center></p>
 
@@ -792,8 +812,6 @@ It depends on what Linux distribution you have and how it have it configured. If
 </p>
 
 <blockquote>
-<p>If you really must have a recommendation that&rsquo;s suitable for regular people, then get either a Chromebook or a Macbook and use the standard OS with the security features intact.</p>
-
 <p>In general, the assumption that open source software is any more secure or even private in practice is totally wrong and not based on reality.</p>
 
 <p>-Daniel Micay</p>
@@ -836,65 +854,6 @@ It depends on what Linux distribution you have and how it have it configured. If
 
 <p></center></p>
 
-<h2 id="i-class-far-fa-envelope-id-email-i-change-your-email"><i class="far fa-envelope" id="email"></i> Change your email</h2>
-
-<p>Email is fundamentally an insecure protocol, you should use Signal or Wire to keep your conversations safe.</p>
-
-<blockquote>
-<p>Encrypting email is asking for a calamity. Recommending email encryption to at-risk users is malpractice. Anyone who tells you it’s secure to communicate over PGP-encrypted email is putting their weird preferences ahead of your safety.</p>
-
-<p>-<a href="https://latacora.micro.blog/2019/07/16/the-pgp-problem.html#">Latacora</a></p>
-</blockquote>
-
-<p>That being said, the following four email providers have shown dedication to keeping your information safe. This will not &ldquo;secure your email&rdquo;, but it is safer than using gmail or most other popular services, since their business models aren&rsquo;t based on advertising. Pick one and make the migration from less friendly services.</p>
-
-<p><center></p>
-
-<p><a href="https://posteo.de/en"><img src="/img/Posteo.png" alt="posteo"></a></p>
-
-<p>Cost: 12 € per year</p>
-
-<hr />
-
-<p><a href="https://protonmail.com/"><img src="/img/ProtonMail.png" alt="protonmail"></a></p>
-
-<p>Free</p>
-
-<hr />
-
-<p><a href="https://tutanota.com/"><img src="/img/Tutanota.png" alt="tutanota"></a></p>
-
-<p>Free</p>
-
-<hr />
-
-<p><a href="https://mailbox.org/en/"><img src="/img/mailbox.png" alt="mailbox"></a></p>
-
-<p>Cost: 12 € per year</p>
-
-<p></center></p>
-
-<p><br>
-<br></p>
-
-<hr />
-
-<h2 id="i-class-far-fa-hdd-i-backup-your-files"><i class="far fa-hdd"></i> Backup your files</h2>
-
-<p>No one wants to lose all their data. Keeping encrypted backups on an external hard drive allows you to keep a snapshot of your system over time. If something goes wrong, you can restore to a previous time. For a cross-platform tool, check out <a href="https://www.duplicati.com/">Duplicati</a>.</p>
-
-<p>I recommend using <a href="https://www.borgbackup.org/">BorgBackup</a> for MacOS and Linux.<br />
-A graphical app that uses Borgbackup is called <a href="https://vorta.borgbase.com">Vorta</a>. It makes backups simple.</p>
-
-<p>You may want to consider keeping cloud backups. This means that you&rsquo;re storing your files on a company&rsquo;s servers (they take care of redundancy). It&rsquo;s recommended to use software like Cryptomator so that these companies don&rsquo;t have access to the contents of your files.</p>
-
-<p>Cloud backup providers that support zero-knowledge backups (where the provider can&rsquo;t see your data) by default:</p>
-
-<ul>
-<li><a href="https://Borgbase.com">https://Borgbase.com</a></li>
-<li><a href="https://tarsnap.com">https://tarsnap.com</a></li>
-</ul>
-
 <p><br>
 <br></p>
 
@@ -919,25 +878,7 @@ A graphical app that uses Borgbackup is called <a href="https://vorta.borgbase.c
 
 <hr />
 
-<h2 id="i-class-fas-fa-dumpster-fire-i-leave-social-media-behind"><i class="fas fa-dumpster-fire"></i> Leave Social Media Behind</h2>
-
-<p>Vox <a href="https://www.youtube.com/watch?v=wZSRxfHMr5s">released a video entitled &ldquo;Why every social media site is a dumpster fire&rdquo;</a>. The video explains how social media sites are very good at increasing tribalism and minimizing good conversation.</p>
-
-<hr />
-
-<p>Cal Newport, professor of computer science at Georgetown University recommends <a href="http://www.calnewport.com/blog/2016/12/18/on-digital-minimalism/">digital minimalism</a> as the antidote to the scourge of social media on our attention.</p>
-
-<blockquote>
-<p>There&rsquo;s this sense right now out there in the culture where people say, &ldquo;Okay, wait a second. Who ever said that the right way to use a smartphone is I have to look at it all the time? When did I sign up for that? When did I think like, &lsquo;You know what I really need to do is look at this little screen three to four hours a day&rsquo;?&rdquo; No one signed up for that, and they&rsquo;re waking up one day and realizing they&rsquo;re doing it. These companies have gone too far and gotten too good into making that into an addictive experience&hellip;</p>
-
-<p>-Cal Newport on the <a href="https://www.rogerdooley.com/cal-newport-minimalism/">brainfluence podcast</a></p>
-</blockquote>
-
-<hr />
-
-<p>The popular Youtube channel Yes Theory <a href="https://www.youtube.com/watch?v=TA5Ilzauebo">released a video</a> detailing how 30 days without social media helped their focus.</p>
-
-<hr />
+<h2 id="i-class-fas-fa-dumpster-fire-i-leave-facebook"><i class="fas fa-dumpster-fire"></i> Leave Facebook</h2>
 
 <p>Roger McNamee, one-time advisor to Mark Zuckerberg and author of the book <em>Zucked: Waking Up to the Facebook Catastrophe</em> brought to our attention how there are no rules in the current system to protect our digital safety:</p>
 
@@ -952,62 +893,6 @@ A graphical app that uses Borgbackup is called <a href="https://vorta.borgbase.c
 </blockquote>
 
 <hr />
-
-<p>Edward Snowden, the whistle-blower and former NSA contractor stated that:</p>
-
-<blockquote>
-<p>Businesses that make money by collecting and selling detailed records of private lives were once plainly described as &ldquo;surveillance companies.&rdquo; Their rebranding as &ldquo;social media&rdquo; is the most successful deception since the Department of War became the Department of Defense.</p>
-
-<p>-@Snowden, <a href="https://twitter.com/Snowden/status/975147858096742405?ref_src=twsrc%5Etfw">2018.03.17</a></p>
-</blockquote>
-
-<hr />
-
-<p>Social media can:</p>
-
-<ul>
-<li>Take away meaningful connections</li>
-<li>Waste time</li>
-<li>Use you as a product</li>
-<li>Aide government surveillance</li>
-<li>Make you feel like you are missing out, when you&rsquo;re not</li>
-</ul>
-
-<p>Using optional online activity in an intentional and minimalist way can:</p>
-
-<ul>
-<li>Be empowering</li>
-<li>Create true connection</li>
-<li>Allow time for focus</li>
-<li>Inspire mindfulness</li>
-</ul>
-
-<p><br>
-<br></p>
-
-<hr />
-
-<h2 id="i-class-fab-fa-usb-i-carry-a-second-factor-token-with-you"><i class="fab fa-usb"></i> Carry a second-factor token with you</h2>
-
-<blockquote>
-<p>&ldquo;When it comes to online security, confusion about the risks can lead people to obsess over obscure threats while ignoring key innovations that could truly protect them. Even highly-targeted users like politicians and activists don’t fully appreciate the scourge of phishing, and many aren’t familiar with an emerging form of two-factor authentication known as “Security Keys” that we hope can stop it in its tracks &hellip; phishing is the silent killer, and relying on a password alone is a recipe for disaster. Two-factor authentication (even with a code delivered by SMS) is still way better than the alternative, but if you’re an at-risk user — like a political figure, celebrity, activist, or journalist — please consider FIDO Security Keys for all your sensitive accounts. Anything less would be uncivilized. 🔐&rdquo; -Mark Risher&rsquo;s <a href="https://medium.com/@mrisher_2499/phishing-and-security-keys-b5c8e8e26931"><em>Phishing and Security Keys</em></a></p>
-</blockquote>
-
-<p><center></p>
-
-<h3 id="trezor">Trezor</h3>
-
-<p><a href="https://trezor.io/"><img src="/img/trezor.jpg" height="200" alt="Trezor"></a></p>
-
-<h3 id="yubikey">Yubikey</h3>
-
-<p><a href="https://www.yubico.com/product/yubikey-5-nfc/#yubikey-5-nfc"><img src="/img/yubikey.jpg" height="200" alt="yubikey"></a></p>
-
-<h3 id="onlykey">Onlykey</h3>
-
-<p><a href="https://onlykey.io/"><img src="/img/onlykey.jpg" height="200" alt="Onlykey"></a></p>
-
-<p></center></p>
 
 <p><br>
 <br></p>
