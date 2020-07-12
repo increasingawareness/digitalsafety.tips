@@ -34,7 +34,7 @@ Switch the search engine to duckduckgo in the browser settings (both Chrome and 
 
 <a href="https://duckduckgo.com"><img src="/img/duckduckgo.svg" height="100" alt="duckduckgo"></a>
 
-You may want to uncheck "allow Chrome sign-in" in Chrome's settings if you're not on a Chromebook or if you don't want data to be synced with Google.
+If you're not on a Chromebook, or don't want data to be synced with Google, you may want to uncheck 'allow Chrome sign-in.'
 
 
 <br>
@@ -48,11 +48,11 @@ You may want to uncheck "allow Chrome sign-in" in Chrome's settings if you're no
 
 ## Android
 
-On Android, you'll want to go to settings and search for: Private DNS. Add `dns.adguard.com` to the "Private DNS provider hostname" field. Switch into and out of airplane mode. That's it! You're successfully blocking ads everywhere you go. You can use NextDNS instead if you'd like.
+On Android, you'll want to go to settings and search for: Private DNS. Add `dns.adguard.com` to the "Private DNS provider hostname" field. Switch airplane mode on and then back off in order to reset the DNS. That's it! You're successfully blocking ads everywhere you go. You can use NextDNS instead if you'd like.
 
 ## iOS/iPadOS
 
-Native DNS control is coming to iOS/iPadOS 14, but until then you'll want to use the [NextDNS app](https://apps.apple.com/us/app/nextdns/id1463342498).
+Changes are coming to iOS/iPadOS 14, but until then you'll want to use the [NextDNS app](https://apps.apple.com/us/app/nextdns/id1463342498).
 
 ## All other systems (Mac, Windows, ChromeOS, etc.)
 
@@ -193,7 +193,7 @@ Security keys are the future of authentication. App based or text-message based 
 The security key I currently recommend is the [Yubikey 5 NFC](https://www.yubico.com/product/yubikey-5-nfc/#yubikey-5-nfc).
 
 
-There are variety of types to fit your needs. Most likely you'll want the Yubikey 5 series which supports the newest standards. If you have a newer Macbook, Chromebook, or 2020 iPad Pro, you'll want to make sure to get a USB-C compatible Yubikey.
+There are a variety of types to fit your needs. Most likely you'll want the Yubikey 5 series which supports the newest standards. If you have a newer Macbook, Chromebook, or 2020 iPad Pro, you'll want to make sure to get a USB-C compatible Yubikey.
 
 You'll want two of them (one is a backup).
 
@@ -598,15 +598,15 @@ Choices: iPad Pro, Pixelbook Go Chromebook, Macbook air, or a PC that can run Wi
 
 ### iPad Pro 🆕
 
-Apple has gone great lengths to protect their users privacy and security. An iPad Pro paired with the Magic Keyboard is a great choice for the user who wants a solid, long-lasting, all around well-performing device. Additionally, Apple is currently in the process of switching all of their Mac lineup to the same or similar chips that are in the iPad pros. This means native app support for Microsoft Word and other mainstream desktop apps on iPad. The current generation iPad Pros are ahead of Macbooks in terms of security. The iPad Pro (2020) paired with the Magic Keyboard is my current pick 
+Apple has gone great lengths to protect their users privacy and security. An iPad Pro paired with the Magic Keyboard is a great choice for the user who wants a solid, long-lasting, all around well-performing device. Additionally, Apple is currently in the process of switching all of their Mac lineup to the same or similar chips that are in the iPad pros. This means native app support for Microsoft Word and other mainstream desktop apps on iPad. The current generation iPad Pros are ahead of Macbooks in terms of security. The iPad Pro (2020) paired with the Magic Keyboard is the current front-runner for digital safety.
 
 ### Pixel Book Go Chromebook
 
-ChromeOS is developed first by the open-source team behind Chromium. Google then adds in their stuff to make ChromeOS. Modern Chromebooks like the Pixel Book Go are also able to run Android Apps natively. If you're a developer, you can also run a linux shell and have access to SSH. For a in-depth view at how the Chromium team is approaching security, [read this page.](https://www.chromium.org/chromium-os/chromiumos-design-docs/security-overview)
+ChromeOS is developed first by the open-source team behind Chromium. Google then adds in their stuff to make ChromeOS. Modern Chromebooks like the Pixel Book Go are also able to run Android Apps natively. If you're a developer, you can also run a linux shell and have access to SSH. For an in-depth view at how the Chromium team is approaching security, [read this page.](https://www.chromium.org/chromium-os/chromiumos-design-docs/security-overview)
 
 ### Macbook Air
 
- Get a new Macbook air or Macbook pro. If you're technically literate, read about [Apple's T2 security chip](https://www.apple.com/mac/docs/Apple_T2_Security_Chip_Overview.pdf). Additionally, if you think you want to get into programming or like to run shell commands this is most likely the right choice for you.
+The Macbook Air is the jack-of-all-trades machine in this set of choices. It has a good balance of computing power, traditional desktop computing, and Apple's signature dedication to privacy. It's not as advanced on the security front as the 2020 iPad Pro, but if you're technically literate, you may find [Apple's T2 security chip](https://www.apple.com/mac/docs/Apple_T2_Security_Chip_Overview.pdf) interesting. Additionally, if you think you want to get into programming or like to run shell commands this is most likely the right choice for you.
 
 
 ### PC that runs Windows 10 S 🆕
@@ -685,11 +685,11 @@ In addition to the router, you'll need a wireless access point for WiFi. Pick up
 
 <center>
 
-## <i id="protest"></i> How do I securely attend a peaceful protests?  🆕
+## <i id="protest"></i> How do I securely attend a peaceful protest?  🆕
 
 </center>
 
-<img src="img/IMG_1396.png">
+<img src="img/clay-banks-TTVRcqoyixs-unsplash.jpg">
 
 </center>
 
