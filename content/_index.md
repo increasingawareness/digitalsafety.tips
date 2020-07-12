@@ -417,11 +417,6 @@ For the [Windows operating system](https://support.microsoft.com/en-us/help/1237
 
 </details>
 
-<details>
-<summary>Linux</summary>
-It depends on what Linux distribution you have and how it have it configured. If you are running Debian, you can install `gnome-packagekit` and the gnome extension [Apt Update Indicator](https://extensions.gnome.org/extension/1139/apt-update-indicator/). This will automatically tell you when updates are available and allow you to update the system graphically.
-
-</details>
 
 
 <center>
