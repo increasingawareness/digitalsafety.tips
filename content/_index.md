@@ -19,13 +19,13 @@ Chrome and Safari are two of the safest browsers.
 
 ## Chrome Desktop Add-Ons
 
-These add-ons for Chrome can be useful for a better desktop browsing experience. For this reason, you might prefer using Chrome on Apple desktop computers instead of Safari. Chrome can be used across all platforms, whereas Safari is only available on Apple products. 
+These add-ons for Chrome can be useful for a better desktop browsing experience. Chrome can be used across all platforms, whereas Safari is only available on Apple products. 
 
- [Ublock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)  
- [HTTPS Everywhere](https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp)  
+ [Ublock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)    
  [Cookie Autodelete](https://chrome.google.com/webstore/detail/cookie-autodelete/fhcgjolkccmbidfldomjliifgaodjagh)  
 
 
+Note that using any browser on iOS/iPadOS results in using the underlying WebKit browser engine from Apple that powers Safari. The only real advantage to using Chrome on those devices would be to sync bookmarks if you use Chrome elsewhere. If you are in the Apple ecosystem, it would make more sense to just stick with Safari.
 
 ## <i class="fas fa-clipboard-check"></i> Browser setup
 
@@ -42,24 +42,24 @@ If you're not on a Chromebook, or don't want data to be synced with Google, you 
 
 ---
 
-# <i class="fas fa-shield-alt" id="ads"></i>  Block most ads and trackers 🆕
+# <i class="fas fa-shield-alt" id="ads"></i>  Block most ads and trackers
 
-[AdguardDNS](https://adguard.com/en/adguard-dns/overview.html) and [NextDNS](https://nextdns.io/) are services that keep you safer and reduce intrusive ads.
+[AdguardDNS](https://adguard.com/en/adguard-dns/overview.html) is a service that keeps you safer and reduces intrusive ads.
 
 ## Android
 
-On Android, you'll want to go to settings and search for: Private DNS. Add `dns.adguard.com` to the "Private DNS provider hostname" field. Switch airplane mode on and then back off in order to reset the DNS. That's it! You're successfully blocking ads everywhere you go. You can use NextDNS instead if you'd like.
+On Android, you'll want to go to settings and search for: Private DNS. Add `dns.adguard.com` to the "Private DNS provider hostname" field. Switch airplane mode on and then back off in order to reset the DNS. That's it! You're successfully blocking ads everywhere you go.
+
 
 ## iOS/iPadOS
 
-Changes are coming to iOS/iPadOS 14, but until then you'll want to use the [NextDNS app](https://apps.apple.com/us/app/nextdns/id1463342498).
+You'll want to install the [AdguardDNS](https://adguard.com/en/adguard-dns/overview.html) app, following their instructions for setup.
 
 ## All other systems (Mac, Windows, ChromeOS, etc.)
 
 Most other systems should be using the Ublock Origin extension in Chrome as discussed above (it can also be used in Microsoft's Edge browser). 
 
-Another option is to use the [NextDNS](https://nextdns.io/) app if using a browser like Safari or other desktop browsers that don't support Ublock Origin.
-
+Another option is to use the [AdguardDNS](https://adguard.com/en/adguard-dns/overview.html) app if using a browser like Safari or other desktop browsers that don't support Ublock Origin.
 
 <br>
 <br>
@@ -175,7 +175,7 @@ Prefer security keys over apps, prefer apps over text message authentication. Te
 
 <center>
 
-## Security Keys 🆕
+## Security Keys
 
 </center>
 
@@ -202,7 +202,7 @@ You'll want two of them (one is a backup).
 ## 2FA Apps
 
 
-### Aegis for Android 🆕
+### Aegis for Android
 
 <a href="https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis"><img src="/img/aegis.png" height="100" alt="aegis"></a>
 <br>
@@ -253,7 +253,7 @@ Created by security expert Troy Hunt, "Have I been Pwned?" is a service that kee
 ---
 
 
-# <i class="far fa-envelope" id="email"></i> A Note on Email. 🆕
+# <i class="far fa-envelope" id="email"></i> A Note on Email.
 
 </center>
 
@@ -328,6 +328,13 @@ Safe ways to backup your data to external media:
 - For [iOS/iPadOS](https://support.apple.com/en-us/HT205220)
 - For Windows, you'll want to [create a system image](https://support.microsoft.com/en-us/help/17127/windows-back-up-restore) and save it to an external drive [using Veracrypt](https://www.veracrypt.fr/en/Home.html).
 - For MacOS, you'll most likely want to use the [integrated Time Machine backup app](https://support.apple.com/en-us/HT201250) (don't forget to check the encrypt backup checkbox). 
+
+
+Mainstream cloud storage providers:
+
+- https://drive.google.com
+- https://icloud.com
+- https://dropbox.com
 
 Cloud backup providers that support zero-knowledge backups (where the provider can't see your data) by default:
 
@@ -426,7 +433,7 @@ For the [Windows operating system](https://support.microsoft.com/en-us/help/1237
 
 ---
 
-#  <i class="fas fa-skull-crossbones" id="eol"></i> "Stop using, even erase, delete or destroy, any software or devices which are past their end-of-life, end-of-support, or for which you can no longer obtain software updates. Make sure to save any data that you want or need." -Security Researcher [Alec Muffett](https://medium.com/@alecmuffett/your-cyber-5-a-day-1f9fa1cb3067) 🆕
+#  <i class="fas fa-skull-crossbones" id="eol"></i> "Stop using, even erase, delete or destroy, any software or devices which are past their end-of-life, end-of-support, or for which you can no longer obtain software updates. Make sure to save any data that you want or need." -Security Researcher [Alec Muffett](https://medium.com/@alecmuffett/your-cyber-5-a-day-1f9fa1cb3067)
 
 Every week there are dozens of [new security vulnerabilities reported](https://us-cert.cisa.gov/ncas/bulletins) that need to be patched. Most devices are patched monthly. Devices are complicated and require constant adjustments to code for each specific device that is made. Sometimes there are even issues with the way the hardware is structured on the device. Eventually, devices aren't supported anymore and need to be replaced. Devices without security updates are dangerous and should not be used. 
 
@@ -596,7 +603,7 @@ The best option you can have in your hand right now is an Apple iPhone or a curr
 Choices: iPad Pro, Pixelbook Go Chromebook, Macbook air, or a PC that can run Windows 10 S.
 
 
-### iPad Pro 🆕
+### iPad Pro
 
 Apple has gone great lengths to protect their users privacy and security. An iPad Pro paired with the Magic Keyboard is a great choice for the user who wants a solid, long-lasting, all around well-performing device. Additionally, Apple is currently in the process of switching all of their Mac lineup to the same or similar chips that are in the iPad pros. This means native app support for Microsoft Word and other mainstream desktop apps on iPad. The current generation iPad Pros are ahead of Macbooks in terms of security. The iPad Pro (2020) paired with the Magic Keyboard is the current front-runner for digital safety.
 
@@ -609,7 +616,7 @@ ChromeOS is developed first by the open-source team behind Chromium. Google then
 The Macbook Air is the jack-of-all-trades machine in this set of choices. It has a good balance of computing power, traditional desktop computing, and Apple's signature dedication to privacy. It's not as advanced on the security front as the 2020 iPad Pro, but if you're technically literate, you may find [Apple's T2 security chip](https://www.apple.com/mac/docs/Apple_T2_Security_Chip_Overview.pdf) interesting. Additionally, if you think you want to get into programming or like to run shell commands this is most likely the right choice for you.
 
 
-### PC that runs Windows 10 S 🆕
+### PC that runs Windows 10 S
 
 
 > Windows 10 in S mode is a version of Windows 10 that's streamlined for security and performance, while providing a familiar Windows experience. To increase security, it allows only apps from the Microsoft Store, and requires Microsoft Edge for safe browsing. -[Windows 10 S FAQ](https://support.microsoft.com/en-us/help/4020089/windows-10-in-s-mode-faq)
@@ -685,7 +692,7 @@ In addition to the router, you'll need a wireless access point for WiFi. Pick up
 
 <center>
 
-## <i id="protest"></i> How do I securely attend a peaceful protest?  🆕
+## <i id="protest"></i> How do I securely attend a peaceful protest? 
 
 </center>
 
