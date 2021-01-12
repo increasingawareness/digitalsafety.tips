@@ -629,7 +629,7 @@ For more:
 
 You can use a commercial VPN if you want, but remember: "A VPN is an ISP"
 
-Privacy and anonymity researcher Sarah Jamie Lewis points out that using a virtual private network (VPN) doesn't keep you anonymous. Rather, you're taking the burden of potential surveillance and moving it from your current Internet service provider (ISP) and moving it to another by using a VPN. This doesn't mean "don't use a VPN". It means treat your VPN just like an ISP. If you need anonymity, use the tor browser. VPNs are most useful when you need to securily connect to a network, not if you want privacy.
+Privacy and anonymity researcher Sarah Jamie Lewis points out that using a virtual private network (VPN) doesn't keep you anonymous. Rather, you're taking the burden of potential surveillance and moving it from your current Internet service provider (ISP) and moving it to another by using a VPN. This doesn't mean "don't use a VPN". It means treat your VPN just like an ISP. If you need anonymity, use the tor browser. VPNs are most useful when you need to securely connect to a network, not if you want privacy.
 
 <center>
 <a href="https://mobile.twitter.com/SarahJamieLewis/status/871713517317042176"><img src="img/srah.png" alt="sarahjamielewis"></a>
@@ -637,11 +637,11 @@ Privacy and anonymity researcher Sarah Jamie Lewis points out that using a virtu
 
 
 
-## <i id="router"></i> What kind of router should I get?
+## <i id="router"></i> More technical step: What kind of router should I get?
 
 </center>
 
-Most consumer routers are horribly outdated and riddled with bugs. In 2018, the U.S. government [advised that U.S. citizens reset their routers](https://www.nytimes.com/2018/05/27/technology/router-fbi-reboot-malware.html) since the Russian government attacked and successfully subverted hundreds-of-thousands of routers throughout the world. Most consumer routers never get updated. These are actually small computers that need regular updates to patch for security issues or bugs.
+Some consumer routers are outdated and insecure. In 2018, the U.S. government [advised that U.S. citizens reset their routers](https://www.nytimes.com/2018/05/27/technology/router-fbi-reboot-malware.html) since the Russian government attacked and successfully subverted hundreds-of-thousands of routers throughout the world. Most consumer routers never get updated. These are actually small computers that need regular updates to patch for security issues or bugs. Additionally, the power that the ISP retains over the device is significant. Obtaining your own network equipment means that you are in control of your network and increase your digital safety.
 
 
 ### PFsense router and firewall with a wireless access point
@@ -653,6 +653,8 @@ Most consumer routers are horribly outdated and riddled with bugs. In 2018, the 
 </center>
 
 In addition to the router, you'll need a wireless access point for WiFi. Pick up [a wireless access point, like one made by Ubiquiti](https://www.ui.com/unifi/unifi-ap-ac-lite/) and you should be set.
+
+These two pieces of equipment ensure that your network is on the way to being more secure (look into making sure the firewall is turned on for your particular router). Securing a home network is out of the scope of this guide, but you may want to visit https://www.reddit.com/r/HomeNetworking/ and the r/pfsense subreddit to ask questions or get ideas for setups.
 
 
 <center>
@@ -764,11 +766,8 @@ This site was aimed at the layperson and was intended to get privacy-security pr
 I'm Grant. For the past many years I've spent a large amount of hours learning more about technology, security, Linux, and network infrastructure. 
 
 
-<a href="https://github.com/increasingawareness">@increasingawareness</a> on Github.
+<a href="https://github.com/increasingawareness">@increasingawareness</a> on Github.  
 Wire messenger - @increasingawareness  
-Email - digitalsafety@tuta.io
-
-
 
 
 ## <i class="fab fa-github" id="contribute"></i> Contribute
