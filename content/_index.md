@@ -73,7 +73,7 @@ Another option is to use the [AdguardDNS](https://adguard.com/en/adguard-dns/ove
 
 
 
-<a href="https://signal.org"><img src="https://en.wikipedia.org/wiki/File:Signal-Logo.svg" height="200" alt="Signal"></a>
+<a href="https://signal.org"><img src="https://upload.wikimedia.org/wikipedia/commons/8/8d/Signal-Logo.svg" height="200" alt="Signal"></a>
 
 
 
@@ -130,7 +130,7 @@ For now, we'll create two passphrases this way: one for your password manager an
 
 ## Bitwarden password manager
 
-<a href="https://bitwarden.com"><img src="https://commons.wikimedia.org/wiki/File:Bitwarden_Logo_Horizontal.png#/media/File:Bitwarden_Logo_Horizontal.png" height="200" alt="bitwarden"></a>
+<a href="https://bitwarden.com"><img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Bitwarden_Logo_Horizontal.pngFile:Bitwarden_Logo_Horizontal.png" height="200" alt="bitwarden"></a>
 
 </center>
 
