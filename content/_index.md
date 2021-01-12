@@ -121,7 +121,7 @@ For now, we'll create two passphrases this way: one for your password manager an
 6. Write down the 6 generated words on a piece of paper that will fit in your wallet. 
 7. This is your master password for your password generator
 8. Do not use it anywhere else.
-9. Repeat this process to create the second passphrase for your computer login.
+9. Repeat this process to create the second passphrase for your computer login (or if using as passcode on an iPad or phone, use a ten sided die for a ten character passcode).
 10. Shred the paper that you've carried with you after you've sufficiently memorized both passphrases. With a good mnemonic story, it shouldn't take longer than a week.
 
 
