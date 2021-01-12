@@ -73,11 +73,14 @@ Another option is to use the [AdguardDNS](https://adguard.com/en/adguard-dns/ove
 
 
 
-<a href="https://signal.org"><img src="/img/signal.png" height="200" alt="Signal"></a>
+<a href="https://signal.org"><img src="https://en.wikipedia.org/wiki/File:Signal-Logo.svg" height="200" alt="Signal"></a>
+
+
+
 
 </center>
 
-Signal is a fun and peer-reviewed messaging app that allows you to connect in a way that respects you. Signal is non-profit, supports video/audio calls, messaging, Giphy, and group chats. It's available on iOS, Android, MacOS desktop, Windows desktop, and Linux desktop. Make your conversations with people just between you and them, not between you and a company that sees you as a product.
+Signal is a fun and peer-reviewed messaging app that allows you to connect in a way that respects you. Signal is non-profit, supports video/audio calls, messaging, Giphy, and group chats (and group video). It's available on iOS, Android, MacOS desktop, Windows desktop, and Linux desktop. Make your conversations with people just between you and them, not between you and a company that sees you as a product.
 
 <center>
 
@@ -127,7 +130,7 @@ For now, we'll create two passphrases this way: one for your password manager an
 
 ## Bitwarden password manager
 
-<a href="https://bitwarden.com"><img src="/img/bitwarden.png" height="200" alt="bitwarden"></a>
+<a href="https://bitwarden.com"><img src="https://commons.wikimedia.org/wiki/File:Bitwarden_Logo_Horizontal.png#/media/File:Bitwarden_Logo_Horizontal.png" height="200" alt="bitwarden"></a>
 
 </center>
 
@@ -156,7 +159,7 @@ There are three main types of authentication:
 | Type of authentication                                | How it works                                                                                       |
 |-------------------------------------------------------|----------------------------------------------------------------------------------------------------|
 | Text message or phone call                            | Get an automated text or phone call and enter the code you read or hear.                           |
-| App on your phone                                                  | Copy the time based code from an app on your phone.                                                |
+| App on your phone                                                  | Copy the time based code from an app on your phone or get a push notification.                                                |
 | A security key such as a Yubikey | Press a button on the device or tap the device to your phone. |
 
 <br>
@@ -319,7 +322,7 @@ Verifying who people are and what they are doing is essential when dealing with 
 # <i class="fas fa-cloud-upload-alt" id="backup"></i>  "Consider each piece of data you create and what would happen if you lost it, or if it leaked to the public at large. Make backups accordingly." -Security Researcher [Alec Muffett](https://medium.com/@alecmuffett/your-cyber-5-a-day-1f9fa1cb3067)
 </center>
 
-The cloud is not a bad place to store some types of data. It depends on what you want to do and who you trust. Apple seems fairly reasonable and iCloud may be a good resource for storing family photos or other files. However, this is all about who you trust. New solutions [are in development](https://github.com/cloudflare/utahfs) to keep data secure in a zero-knowledge way (where the cloud provider can't see your data even if they wanted to). You may also want to use a tool like [Syncthing](https://syncthing.net) to sync folders and files on your own terms. If you want to use tools like Google Drive or Dropbox: that's fine, just remember that someone else may have access to that information.
+The cloud is not a bad place to store some types of data. It depends on what you want to do and who you trust. Apple seems fairly reasonable and iCloud may be a good resource for storing family photos or other files. If you have the advanced protection program with Gmail, you also have the same protection if you decide to upload photos (this pertains to security only, not privacy). However, this is all about who you trust to keep your data private. New solutions [are in development](https://github.com/cloudflare/utahfs) to keep data secure in a zero-knowledge way (where the cloud provider can't see your data even if they wanted to). If you want to use tools like Google Drive or Dropbox: that's fine, just remember that someone else may have access to that information.
 
 Keep backups. If you've decided to keep everything in the cloud for backups, it's still recommended to have an offline backup on an external drive to increase redundancy (in information integrity, redundancy is a good thing). Store this someplace safe, and make sure the backup is encrypted. 
 
@@ -338,9 +341,10 @@ Mainstream cloud storage providers:
 
 Cloud backup providers that support zero-knowledge backups (where the provider can't see your data) by default:
 
-- https://Borgbase.com (MacOS)
-- https://tarsnap.com (MacOS)
 - https://sync.com (Most platforms)
+- https://Borgbase.com (MacOS, only for technical users)
+- https://tarsnap.com (MacOS, only for technical users)
+
 
 <br>
 <br>
@@ -535,46 +539,7 @@ Get close friends and family on Signal, tell them about being able to block ads,
 
 ---
 
-# <i class="fas fa-tools" id="othertools"></i> Other tools
 
-</center>
-
-These tools are in addition to the basic tools that I recommend above. You may or may not have a use case for them.
-
-<center>
-
-## Mobile/Desktop: Communicate securely with Wire messenger
-
-</center>
-
-Using a similar protocol to Signal, Wire is a commercial company that allows for secure communication with others. It's free for personal use. You can also use it for your business with their paid plans.
-
-<center>
-
-<a href="https://wire.com/en/products/personal-secure-messenger/"><img src="/img/wire.png" height="100" alt="wire"></a>
-
-<br>
-<br>
-
-## Mobile/Desktop: Keep your searches and perusing anonymous with Tor
-
-</center>
-
-The Tor browser is an amazing tool that allows one to freely browse the web anonymously. It connects to volunteers who operate servers all over the world and encrypt your web traffic in layers like an onion. It does this 3 times so that no one can connect the requester of the data with the data itself. If you would like to be anonymous on the web, the tor browser is your ticket. 
-
-
-
-> "Tor protects the network communications. It separates where you are from where you are going on the Internet. What content and data you transmit over Tor is controlled by you. If you login to Google or Facebook via Tor, the local ISP or network provider doesn't know you are visiting Google or Facebook. Google and Facebook don't know where you are in the world. However, since you have logged into their sites, they know who you are. If you don't want to share information, you are in control." -[Tor Project FAQ](https://2019.www.torproject.org/docs/faq.html.en#AmITotallyAnonymous)
-
-<center>
-
-<a href="https://torproject.org"><img src="/img/tor.png" height="200" alt="torbrowser"></a>
-
-<br>
-
-
-
----
 
 </center>
 
@@ -592,7 +557,7 @@ The Tor browser is an amazing tool that allows one to freely browse the web anon
 
 </center>
  
-The best option you can have in your hand right now is an Apple iPhone or a current generation Google Pixel with the security features intact  [according to security researcher Daniel Micay](https://www.reddit.com/r/GrapheneOS/comments/bddq5u/os_security_ios_vs_grapheneos_vs_stock_android/ekxifpa?utm_source=share&utm_medium=web2x).
+The best option you can have in your hand right now is an Apple iPhone or a current generation Google Pixel with the security features intact according to most security researchers, [including security researcher Daniel Micay](https://www.reddit.com/r/GrapheneOS/comments/bddq5u/os_security_ios_vs_grapheneos_vs_stock_android/ekxifpa?utm_source=share&utm_medium=web2x).
 
 <center>
 
@@ -613,7 +578,7 @@ ChromeOS is developed first by the open-source team behind Chromium. Google then
 
 ### Macbook Air
 
-The Macbook Air is the jack-of-all-trades machine in this set of choices. It has a good balance of computing power, traditional desktop computing, and Apple's signature dedication to privacy. It's not as advanced on the security front as the 2020 iPad Pro, but if you're technically literate, you may find [Apple's T2 security chip](https://www.apple.com/mac/docs/Apple_T2_Security_Chip_Overview.pdf) interesting. Additionally, if you think you want to get into programming or like to run shell commands this is most likely the right choice for you.
+The Macbook Air is the jack-of-all-trades machine in this set of choices. It has a good balance of computing power, traditional desktop computing, and Apple's signature dedication to privacy. It's not as advanced on the security front as the 2020 iPad Pro, but the M1 Mac lineup (the newer ones with the M1 chipset) is the runner up. Additionally, if you think you want to get into programming or like to run shell commands this is most likely the right choice for you.
 
 
 ### PC that runs Windows 10 S
@@ -664,7 +629,7 @@ For more:
 
 You can use a commercial VPN if you want, but remember: "A VPN is an ISP"
 
-Privacy and anonymity researcher Sarah Jamie Lewis points out that using a virtual private network (VPN) doesn't keep you anonymous. Rather, you're taking the burden of potential surveillance and moving it from your current Internet service provider (ISP) and moving it to another by using a VPN. This doesn't mean "don't use a VPN". It means treat your VPN just like an ISP. If you need anonymity, use the tor browser.
+Privacy and anonymity researcher Sarah Jamie Lewis points out that using a virtual private network (VPN) doesn't keep you anonymous. Rather, you're taking the burden of potential surveillance and moving it from your current Internet service provider (ISP) and moving it to another by using a VPN. This doesn't mean "don't use a VPN". It means treat your VPN just like an ISP. If you need anonymity, use the tor browser. VPNs are most useful when you need to securily connect to a network, not if you want privacy.
 
 <center>
 <a href="https://mobile.twitter.com/SarahJamieLewis/status/871713517317042176"><img src="img/srah.png" alt="sarahjamielewis"></a>
@@ -784,12 +749,11 @@ FAQ
 
 ## <i class="fas fa-user" id="about"></i> About
 
-This site was aimed at the layperson and was intended to get privacy-security preserving tech into the hands of as many people as possible. Therefore, it may not meet your needs if you require a higher level of anonymity or have a complex threat model. If your needs are greater than this project, please check out the following:
+This site was aimed at the layperson and was intended to get privacy-security preserving tech into the hands of as many people as possible. Therefore, it may not meet your needs if you require a higher level of anonymity or have a complex threat model or just are curious about nerdy security things. If your needs are greater than this project, please check out the following:
 
 - [QubesOS](https://www.qubes-os.org/)
 - [Tails](https://tails.boum.org/)
 - [One-time Pad Encryption](https://en.wikipedia.org/wiki/One-time_pad)
-- [Dulle's Rules of Tradecraft](https://grugq.github.io/resources/Dulles%20on%20Tradecraft.pdf) and the [Moscow Rules](https://en.wikipedia.org/wiki/The_Moscow_rules)
 - [GrapheneOS](https://grapheneos.org/)
 
 
@@ -800,10 +764,8 @@ This site was aimed at the layperson and was intended to get privacy-security pr
 I'm Grant. For the past many years I've spent a large amount of hours learning more about technology, security, Linux, and network infrastructure. 
 
 
-My handle is <a href="https://github.com/increasingawareness">@increasingawareness</a>. I'm not currently on any social media platforms.
-
+<a href="https://github.com/increasingawareness">@increasingawareness</a> on Github.
 Wire messenger - @increasingawareness  
-XMPP - gmj@conversations.im  
 Email - digitalsafety@tuta.io
 
 
