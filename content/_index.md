@@ -130,7 +130,7 @@ For now, we'll create two passphrases this way: one for your password manager an
 
 ## Bitwarden password manager
 
-<a href="https://bitwarden.com"><img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Bitwarden_Logo_Horizontal.png" height="100" alt="bitwarden"></a>
+<a href="https://bitwarden.com"><img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Bitwarden_Logo_Horizontal.png" height="70" alt="bitwarden"></a>
 
 </center>
 
