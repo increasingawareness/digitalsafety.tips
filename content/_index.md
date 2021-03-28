@@ -726,7 +726,7 @@ Resources I've found helpful:
 Steps:
 
 1. [Use Chrome or Safari for your browser](/#browser)
-2. [Block most ads and trackers with nextdns or adguardDNS](/#ads)
+2. [Block most ads and trackers with adguardDNS](/#ads)
 3. [Communicate securely with Signal Messenger](/#signal)
 4. [Use password manager like Bitwarden with a strong passphrase](/#passwords)
 5. [Get a Yubikey security key and turn on 2-factor-authentication for your accounts](/#2fa)
