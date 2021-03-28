@@ -274,6 +274,9 @@ If you object to using Google's services, [Tutanota](https://tutanota.com) suppo
  
  > "Phishing is when a scammer uses fraudulent emails or texts, or copycat websites to get you to share valuable personal information – such as account numbers, Social Security numbers, or your login IDs and passwords. Scammers use your information to steal your money or your identity or both. Scammers also use phishing emails to get access to your computer or network then they install programs like ransomware that can lock you out of important files on your computer. Phishing scammers lure their targets into a false sense of security by spoofing the familiar, trusted logos of established, legitimate companies. Or they pretend to be a friend or family member." -[Federal Trade Commission](https://www.consumer.ftc.gov/articles/0003-phishing)
  
+ 
+Similar attacks are [extortion based emails](https://www.theguardian.com/technology/askjack/2019/jan/17/phishing-email-blackmail-sextortion-webcam) or [cryptocurrency scams](https://support.ledger.com/hc/en-us/articles/360035343054-Beware-of-phishing-attempts). 
+ 
  For more on phishing, check out [this comic](https://theintercept.com/2017/11/19/how-to-protect-yourself-against-spearphishing-a-comic-explanation/) from *The Intercept*.
 
 <br>
